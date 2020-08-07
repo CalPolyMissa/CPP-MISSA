@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>MISSA</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Font Awesome CSS -->
+  <link href="./lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+  <!--Custom CSS -->
+  <link rel="stylesheet" href="../css/style.css" type="text/css">
+  <link rel="stylesheet" href="../css/calendar.css" type="text/css">
+  <link rel="stylesheet" href="../css/itc-carousel.css" type="text/css">
+
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-white navbar-light scrolling-navbar" id="navbar">
+        <a class="navbar-brand justify-content-center" href="../index.html">
+          <img src="../img/Missa+Logo.png" id="logo" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link active" href="../index.html">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">About</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="about.html">About MISSA</a>
+                <a class="dropdown-item" href="eboard.html">E-board</a>
+                <a class="dropdown-item" href="./alumni.html">Alumni</a>
+
+              </div>
+
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Events</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="itc.html">IT Competition</a>
+                <a class="dropdown-item" href="#">ITC Previous Cases</a>
+                <hr>
+                <a class="dropdown-item" href="techMixer.html">Professional Tech Mixer</a>
+                <hr>
+                <a class="dropdown-item" href="calendar.html">Schedule</a>
+
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Membership</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="membership.html">Benefits</a>
+                <a class="dropdown-item" href="membership.html#mentorship">Mentorship</a>
+                <hr>
+                <a class="dropdown-item" href="https://www.eventbrite.com/e/cal-poly-missa-membership-management-information-system-student-association-tickets-71026747915"
+                  target="_blank">Apply</a>
+
+              </div>
+
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Contact</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="./contact.html">Contact</a>
+                <a class="dropdown-item" href="./FAQs.html">FAQs</a>
+            </li>   
+          </ul>
+        </div>
+      </nav>
+
+
+
+
+      <div class="col-12 col-lg-9 col-md-9 mx-auto text-center " style="width: 74rem;" >
+        <div class="card-body">
+          <h3 class="mb-5">ITC Previous Cases</h3>
+
+            <p class="card-text my-4">Below you will find previous cases and videos for each category from past competitions. Be sure to click on the year for more details on the case.</p>
+
+            <p class="card-text my-4">Also be sure to check out <span class="highlight">ITC Bootcamp important files</span> for more information on ITC.</p>
+
+            <p>
+              <a class="btn btn-primary mb-3" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                ITC Bootcamp 2020 Important Files
+              </a>
+
+            </p>
+            <div class="collapse" id="collapseExample"; >
+              <div class="card card-body justify-content-center">
+                <a href="../itc/prev-cases/ITC Bootcamp 2020.pdf" target="_blank"><li class="list-group-item list-group-item-action">ITC Bootcamp 2020</li></a>
+                <a href="../itc/prev-cases/Consultant Biography Example.pdf" target="_blank"><li class="list-group-item list-group-item-action">ITC Sample Biography Consultant</li></a>
+                <a href="../itc/prev-cases/ITC_Presentation_Checklist.pdf" target="_blank"><li class="list-group-item list-group-item-action">ITC Oral Presentation Checklist</li></a>
+                <a href="../itc/prev-cases/ITC Deliverable Checklist - 2016.pdf" target="_blank"><li class="list-group-item list-group-item-action ">ITC Deliverable Checklist</li></a>
+                <a href="../itc/prev-cases//Sample_ Digital Forensics Written Deliverable.pdf" target="_blank"><li class="list-group-item list-group-item-action ">ITC Sample Digital Forensics Written Deliverable</li></a>
+
+
+              </div>
+            </div>
+
+
+
+
+        </div>
+      </div>
+
+
+
+      <div class="row justify-content-center mb-5">
+        <div class="tab">
+          <button class="tablinks" onmouseover="openTab(event, 'IT Security')">IT Security</button>
+          <button class="tablinks" onmouseover="openTab(event, 'Digital Forensics')">Digital Forensics</button>
+          <button class="tablinks" onmouseover="openTab(event, 'IT Strategy')">IT Strategy</button>
+          <button class="tablinks" onmouseover="openTab(event, 'Web Application')">Web Application</button>
+          <button class="tablinks" onmouseover="openTab(event, 'Data Analytics')">Data Analytics</button>
+          </div>
+
+          <div id="IT Security" class="tabcontent">
+          <h5 class="card-title mt-5 text-center">IT Security</h5>
+          <div class="card-body">
+          <ul class="list-group list-group-flush text-center">
+            <a href="../itc/IT Security/2019/ITC-XXIII-2019-IT-Security-Case.pdf" target="_blank"><li class="list-group-item list-group-item-action">2019</li></a>
+            <a href="../itc//IT Security/2017/ITC 2017 Security Case.pdf" target="_blank"><li class="list-group-item list-group-item-action">2017</li></a>
+            <a href="https://www.youtube.com/watch?v=WVcP0WsYdow&feature=youtu.be" target="_blank"><li class="list-group-item list-group-item-action">IT Security Video </li></a>
+          </ul>
+        </div>
+        </div>
+
+          <div id="Digital Forensics" class="tabcontent">
+          <h5 class="card-title mt-5 text-center">Digital Forensics</h5>
+          <div class="card-body">
+          <ul class="list-group list-group-flush text-center">
+            <a href="../itc/Computer Forensics/2019/23rd Annual ITC Digital Forensics Case.pdf" target="_blank"><li class="list-group-item list-group-item-action">2019</li></a>
+            <a href="../itc/Computer Forensics/2017/21st-ITC-Forensics-Case.pdf" target="_blank"><li class="list-group-item list-group-item-action">2017</li></a>
+            <!-- <a href="../itc/Computer Forensics/2016/2016 ITC Forensics Scenario.pdf" target="_blank"><li class="list-group-item list-group-item-action">2016</li></a> -->
+            <a href="https://www.youtube.com/watch?feature=youtu.be&v=xv4uNlWJNy8" target="_blank"><li class="list-group-item list-group-item-action">Digital Forensics Video</li></a>
+          </ul>
+        </div>
+        </div>
+
+          <div id="IT Strategy" class="tabcontent">
+            <h5 class="card-title mt-5 text-center">IT Security</h5>
+            <div class="card-body">
+            <ul class="list-group list-group-flush text-center">
+              <a href="../itc/IT Strategy/2019/ITC XXIII - 2019 IT Strategy Case - FINAL.pdf" target="_blank"><li class="list-group-item list-group-item-action">2019</li></a>
+              <a href="../itc/IT Strategy/2018/ITC XXII - 2018 IT Strategy Case - Final.pdf" target="_blank"><li class="list-group-item list-group-item-action">2018</li></a>
+              <!-- <a href="../itc/IT Strategy/2017/ITC 2017 ITStrategyCase .pdf" target="_blank"><li class="list-group-item list-group-item-action">2017</li></a> -->
+              <a href="https://www.youtube.com/watch?feature=youtu.be&v=OXLIqIEwhzg" target="_blank"><li class="list-group-item list-group-item-action">IT Strategy Video</li></a>
+            </ul>
+          </div>
+          </div>
+
+          <div id="Web Application" class="tabcontent">
+            <h5 class="card-title mt-5 text-center">Web Application</h5>
+            <div class="card-body">
+            <ul class="list-group list-group-flush text-center">
+              <a href="../itc/Web App Dev/2019/ITC Case Study Venkatesan.pdf" target="_blank"><li class="list-group-item list-group-item-action">2019</li></a>
+              <a href="../itc/Web App Dev/2018/MissaCase-2018(draft).pdf" target="_blank"><li class="list-group-item list-group-item-action">2018</li></a>
+              <!-- <a href="../itc/Web App Dev/2017/ITC2017WebDevCase.pdf" target="_blank"><li class="list-group-item list-group-item-action">2017</li></a>
+              <a href="../itc/Web App Dev/2016/ITC 2016 - Web Applications Development Case.pdf" target="_blank"><li class="list-group-item list-group-item-action">2016</li></a> -->
+              <a href="https://www.youtube.com/watch?feature=youtu.be&v=F19T0_7rPew" target="_blank"><li class="list-group-item list-group-item-action">Web App. Video</li></a>
+            </ul>
+          </div>
+          </div>
+
+          <div id="Data Analytics" class="tabcontent">
+            <h5 class="card-title mt-5 text-center">Data Analytics</h5>
+            <div class="card-body">
+            <ul class="list-group list-group-flush text-center">
+              <a href="../itc/Data Analytics/2019/Analytics ITC Case 2019.pdf" target="_blank"><li class="list-group-item list-group-item-action">2019</li></a>
+              <a href="https://www.youtube.com/watch?feature=youtu.be&v=xv4uNlWJNy8" target="_blank"><li class="list-group-item list-group-item-action">2018</li></a>
+              <a href="https://drive.google.com/file/d/1kBhPVfQ2us-2xSCG3YKViHXXbfZiUBgP/view" target="_blank"><li class="list-group-item list-group-item-action">Data Analytics Video</li></a>
+            </ul>
+          </div>
+          </div>
+        </div>
+
+        <br/>
+
+
+
+
+      <footer class="footer-nav text-center bg-light">
+        <section>
+
+            <div class="container">
+                <h3>Connect With Us</h3>
+                <ul class="nav contact justify-content-center">
+                    <li><a href="https://www.facebook.com/cppmissa/"><i class="fab fa-facebook"></i>
+                    </a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/company/cppmissa"><i class="fab fa-linkedin-in	"></i>
+                    </a>
+                    </li>
+                    <li><a href="https://www.instagram.com/cppmissa/"><i class="fab fa-instagram"></i>
+                    </a>
+                    </li>
+                    <li><a href="https://missacpp.slack.com/join/shared_invite/enQtNzI1MDQ1NTcwMzQzLTc4ODJiNWQzYmU0ZTkzMDFhNzM2Y2JjZTQzZjVhM2RkYzRlODQzYTVlZGYxZTk3MTA0MmQyN2JlODRjYjhjMzA#/" ><i class="fab fa-slack-hash	"></i>
+                    </a>
+                    </li>
+                </ul>
+
+                <p class="copyrights">&copy 2020 Management Information System Student Assosication</p>
+              </div>
+
+        </section>
+      </footer>
+
+
+      <script src="../script.js"></script>
+      <script src="../js/dom.js"></script>
+
+    </body>
+    </html>
