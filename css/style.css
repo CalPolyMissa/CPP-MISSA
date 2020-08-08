@@ -581,7 +581,7 @@ h3,p{
   display: table;
 }
 
-.title {
+.title, .program {
   color: grey;
 }
 
