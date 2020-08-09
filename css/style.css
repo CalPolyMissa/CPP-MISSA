@@ -587,15 +587,14 @@ h3,p{
 
 .button {
   font-size: 20px;
-  padding: 5px 70px;
   background-color: #ff7070;
   border-color: #ff7070;
   border: none;
   outline: 0;
-  display: inline-block;
   color: #e7e6e6;
   text-align: center;
   cursor: pointer;
+
 }
 
 .button:hover {
@@ -662,10 +661,10 @@ details[open] summary {
 
 
 
-/* Mobile USE:  320px - 480px  */
+/* Mobile, iPads, Small screen Laptops:  320px - 1024px  */
 
 
-@media (min-width: 320px) and (max-width: 1200px) {
+@media (min-width: 320px) and (max-width: 1024px) {
   .button{
     padding: 5px 50px;
     font-size: 1rem;
@@ -675,5 +674,17 @@ details[open] summary {
   
   }
 
+}
+
+/* Desktops, Extra Large Screens: 1025px and More */
+
+@media (min-width: 1025px)  {
+  .button {
+    font-size: 1rem;
+    padding: 5px 40px;
+    margin: 5px 0px;
+    display: inline-block;
+  
+  }
 }
 
