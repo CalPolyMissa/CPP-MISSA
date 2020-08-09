@@ -594,7 +594,6 @@ h3,p{
   outline: 0;
   display: inline-block;
   color: #e7e6e6;
-  background-color: #ff7070;
   text-align: center;
   cursor: pointer;
 }
@@ -660,3 +659,21 @@ details[open] summary {
 
   
 }
+
+
+
+/* Mobile USE:  320px - 480px  */
+
+
+@media (min-width: 320px) and (max-width: 1200px) {
+  .button{
+    padding: 5px 50px;
+    font-size: 1rem;
+    margin: 5px 0px;
+    text-align: center;
+    min-width: 100%;
+  
+  }
+
+}
+
