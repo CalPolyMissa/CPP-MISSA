@@ -44,7 +44,6 @@
                   <div class="dropdown-menu">
                     <a class="dropdown-item" href="./about.html">About MISSA</a>
                     <a class="dropdown-item" href="./eboard.html">E-board</a>
-                    <a class="dropdown-item" href="./alumni.html">Alumni</a>
 
                   </div>
 
@@ -73,26 +72,32 @@
                   </div>
 
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Contact</a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="./contact.html">Contact</a>
-                    <a class="dropdown-item" href="./FAQs.html">FAQs</a>
-                </li>   
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
               </ul>
             </div>
           </nav>
 
           <h3 style="text-align:center">MISSA Alumni</h3>
 
-          <!-- <button class="accordion">Application Development</button>
-          <div class="panel"> -->
+            <p style="text-align:center">Search for our MISSA alumni by their <span class="highlight">name or graduation year</span>.</p>
+
+
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 mb-3">
+                <input type="text" id="myFilter" class="form-control" onkeyup="myFunction()" placeholder="Search...">
+              </div>
+            </div>
+            <!-- <div id="myDIV"> -->
+            <div class = "search" id="myItems">
             <div class="row">
             <div class="column">
               <div class="card">
                 <!-- <img src="pic.jpg" alt="Brandon" style="width:100%"> -->
-                <div class="container">
-                  <h2>Christie Kuo</h2>
+                <div class="card-body">
+                  <h2 class="card-title">Christie Kuo</h2>
                   <p class="title">Class of 2020</p>
                   <p class="title">Information Security</p>
                   <p class="title">IT Consultant - Protiviti</p>
@@ -103,8 +108,8 @@
             <div class="column">
               <div class="card">
                 <!-- <img src="pic.jpg" alt="Abhishek" style="width:100%"> -->
-                <div class="container">
-                  <h2>Jessica Wren</h2>
+                <div class="card-body">
+                  <h2 class="card-title">Jessica Wren</h2>
                   <p class="title">Class of 2020</p>
                   <p class="title">Business Intelligence</p>
                   <p class="title">IT Consultant - EY</p>
@@ -115,8 +120,8 @@
             <div class="column">
               <div class="card">
                 <!-- <img src="pic.jpg" alt="Christian" style="width:100%"> -->
-                <div class="container">
-                  <h2>Kyle Anderson</h2>
+                <div class="card-body">
+                  <h2 class="card-title">Kyle Anderson</h2>
                   <p class="title">Class of 2020</p>
                   <p class="title">Business Intelligence</p>
                   <p class="title">Business Systems Analyst I - City National Bank</p>
@@ -128,8 +133,8 @@
           <div class="column">
             <div class="card">
               <!-- <img src="pic.jpg" alt="Brandon" style="width:100%"> -->
-              <div class="container">
-                <h2>Kevin Lee</h2>
+              <div class="card-body">
+                <h2 class="card-title">Kevin Lee</h2>
                 <p class="title">Class of 2020</p>
                 <p class="title">Business Intelligence</p>
                 <p class="title">Data Science Intern - Raytheon</p>
@@ -140,8 +145,8 @@
           <div class="column">
             <div class="card">
               <!-- <img src="pic.jpg" alt="Abhishek" style="width:100%"> -->
-              <div class="container">
-                <h2>Norman Mach</h2>
+              <div class="card-body">
+                <h2 class="card-title">Norman Mach</h2>
                 <p class="title">Class of 2020</p>
                 <p class="title">Application Development</p>
                 <p class="title">Web Developer - CBA</p>
@@ -152,8 +157,8 @@
           <div class="column">
             <div class="card">
               <!-- <img src="pic.jpg" alt="Christian" style="width:100%"> -->
-              <div class="container">
-                <h2>Ryan Tung</h2>
+              <div class="card-body">
+                <h2 class="card-title">Ryan Tung</h2>
                 <p class="title">Class of 2020</p>
                 <p class="title">Business Intelligence</p>
                 <p class="title">IT Consultant - Pwc</p>
@@ -169,11 +174,11 @@
             <div class="column">
               <div class="card">
                 <!-- <img src="pic.jpg" alt="Brandon" style="width:100%"> -->
-                <div class="container">
-                <h2>Thomas Pan</h2>
-                  <p class="title">Class of 2019</p>
-                  <p class="title">Business Intelligence</p>
-                  <p class="title">IT Consultant - Protiviti</p>
+                <div class="card-body">
+                <h2 class="card-title">William Tran</h2>
+                  <p class="title">Class of 2020</p>
+                  <p class="title">Information Security/Assurance</p>
+                  <p class="title">Advisory Associate - KPMG</p>
                 </div>
               </div>
             </div>
@@ -181,8 +186,8 @@
             <div class="column">
               <div class="card">
                 <!-- <img src="pic.jpg" alt="Abhishek" style="width:100%"> -->
-                <div class="container">
-                  <h2>David Hernandez-Montes</h2>
+                <div class="card-body">
+                  <h2 class="card-title">David Hernandez-Montes</h2>
                   <p class="title">Class of 2019</p>
                   <p class="title">Business Intelligence</p>
                   <p class="title">Associate IT Operations Analyst - Kelloggs</p>
@@ -193,10 +198,10 @@
             <div class="column">
               <div class="card">
                 <!-- <img src="pic.jpg" alt="Christian" style="width:100%"> -->
-                <div class="container">
-                  <h2>Melody Ho</h2>
-                  <p class="title">Class of 2010</p>
-                  <p class="title">Science Apps and Data Interaction Engineer - NASA</p>
+                <div class="card-body">
+                  <h2 class="card-title">Thomas Pan</h2>
+                  <p class="title">Class of 2019</p>
+                  <p class="title">Consultant - Protiviti</p>
                 </div>
               </div>
             </div>
@@ -209,10 +214,10 @@
             <div class="column">
               <div class="card">
                 <!-- <img src="pic.jpg" alt="Brandon" style="width:100%"> -->
-                <div class="container">
-                  <h2>Wendy Sunderland</h2>
-                  <p class="title">Class of 2010</p>
-                  <p class="title">Human Resources Consultant - Southern California Edison(SCE)</p>
+                <div class="card-body">
+                  <h2 class="card-title">Angelo Alviar</h2>
+                  <p class="title">Class of 2019</p>
+                  <p class="title">Consultant(Red Team) - Mandiant</p>
                 </div>
               </div>
             </div>
@@ -220,10 +225,10 @@
             <div class="column">
               <div class="card">
                 <!-- <img src="pic.jpg" alt="Abhishek" style="width:100%"> -->
-                <div class="container">
-                  <h2>Jonathan Lin</h2>
-                  <p class="title">Class of 2009</p>
-                  <p class="title">Associate Director of IT - Takeda</p>
+                <div class="card-body">
+                  <h2 class="card-title">Austin Panganiban</h2>
+                  <p class="title">Class of 2019</p>
+                  <p class="title">IT Security Analyst - Intuitive</p>
                 </div>
               </div>
             </div>
@@ -231,10 +236,10 @@
             <div class="column">
               <div class="card">
                 <!-- <img src="pic.jpg" alt="Christian" style="width:100%"> -->
-                <div class="container">
-                  <h2>Min Li Fu</h2>
-                  <p class="title">Class of 2008</p>
-                  <p class="title">Senior Manager - FSO Advistory Services - EY</p>
+                <div class="card-body">
+                  <h2 class="card-title">Huy Nguyen</h2>
+                  <p class="title">Class of 2019</p>
+                  <p class="title">Security Engineer - Booz Allen Hamilton</p>
                 </div>
               </div>
             </div>
@@ -247,10 +252,10 @@
             <div class="column">
               <div class="card">
                 <!-- <img src="pic.jpg" alt="Brandon" style="width:100%"> -->
-                <div class="container">
-                  <h2>Jeffrey Buccola</h2>
-                  <p class="title">Class of 2008</p>
-                  <p class="title">Senior Manager, Cyber Risk Servieces - Deloitte</p>
+                <div class="card-body">
+                  <h2 class="card-title">Jasmine Vu</h2>
+                  <p class="title">Class of 2019</p>
+                  <p class="title">Associate Consultant - Capgemini</p>
                 </div>
               </div>
             </div>
@@ -258,10 +263,10 @@
             <div class="column">
               <div class="card">
                 <!-- <img src="pic.jpg" alt="Abhishek" style="width:100%"> -->
-                <div class="container">
-                  <h2>Charles Bennett</h2>
-                  <p class="title">Class of 2008</p>
-                  <p class="title">President - Business Data Links</p>
+                <div class="card-body">
+                  <h2 class="card-title">Gabrielle Nguyen</h2>
+                  <p class="title">Class of 2018</p>
+                  <p class="title">Associate Advisory, IT Audit & Assurance - KPMG</p>
                 </div>
               </div>
             </div>
@@ -269,15 +274,155 @@
             <div class="column">
               <div class="card">
                 <!-- <img src="pic.jpg" alt="Christian" style="width:100%"> -->
-                <div class="container">
-                  <h2>Graham Rellinger</h2>
-                  <p class="title">Class of 2007</p>
-                  <p class="title">IT Operations Manager - Verify</p>
+                <div class="card-body">
+                  <h2 class="card-title">Danielle Nguyen</h2>
+                  <p class="title">Class of 2018</p>
+                  <p class="title">Senior Associate - PwC</p>
                 </div>
               </div>
             </div>
           </div>
-          <!-- </div> -->
+
+          <div class="row">
+          <div class="column">
+            <div class="card">
+              <!-- <img src="pic.jpg" alt="Brandon" style="width:100%"> -->
+              <div class="card-body">
+                <h2 class="card-title">Amanda Ly</h2>
+                <p class="title">Class of 2018</p>
+                <p class="title">Internal Audit - Amazon</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card">
+              <!-- <img src="pic.jpg" alt="Abhishek" style="width:100%"> -->
+              <div class="card-body">
+                <h2 class="card-title">Jeremy Kan</h2>
+                <p class="title">Class of 2018</p>
+                <p class="title">ITBM Solution Consultant - ServiceNow</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card">
+              <!-- <img src="pic.jpg" alt="Christian" style="width:100%"> -->
+              <div class="card-body">
+                <h2 class="card-title">Ishmene Cabral</h2>
+                <p class="title">Class of 2018</p>
+                <p class="title">Subcontracts Manager - NASA Jet Propulsion Lab</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+        <div class="column">
+          <div class="card">
+            <!-- <img src="pic.jpg" alt="Brandon" style="width:100%"> -->
+            <div class="card-body">
+              <h2 class="card-title">Barbae Marquez</h2>
+              <p class="title">Class of 2018</p>
+              <p class="title">Consultant, Advanced Analytics - Avanade</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <!-- <img src="pic.jpg" alt="Abhishek" style="width:100%"> -->
+            <div class="card-body">
+              <h2 class="card-title">Adolfo Alarcon</h2>
+              <p class="title">Class of 2018</p>
+              <p class="title">Technical Support Engineer - CrowdStrike</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <!-- <img src="pic.jpg" alt="Christian" style="width:100%"> -->
+            <div class="card-body">
+              <h2 class="card-title">Christopher Guerra</h2>
+              <p class="title">Class of 2018</p>
+              <p class="title">Production Coordinator - Infinity Ward</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+      <div class="column">
+        <div class="card">
+          <!-- <img src="pic.jpg" alt="Brandon" style="width:100%"> -->
+          <div class="card-body">
+            <h2 class="card-title">Nataliya Tamblyn</h2>
+            <p class="title">Class of 2018</p>
+            <p class="title">IT/ Cyber Secuirty Transformation - KPMG</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <!-- <img src="pic.jpg" alt="Abhishek" style="width:100%"> -->
+          <div class="card-body">
+            <h2 class="card-title">Michelle Pham</h2>
+            <p class="title">Class of 2018</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <!-- <img src="pic.jpg" alt="Christian" style="width:100%"> -->
+          <div class="card-body">
+            <h2 class="card-title">Michael Barte</h2>
+            <p class="title">Class of 2018</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+    <div class="column">
+      <div class="card">
+        <!-- <img src="pic.jpg" alt="Brandon" style="width:100%"> -->
+        <div class="card-body">
+          <h2 class="card-title">Matthew Sprengel</h2>
+          <p class="title">Class of 2017</p>
+          <p class="title">DevOps Security Engineer, (Lecturer, CIS 2670) - PwC/ (CPP)</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <!-- <img src="pic.jpg" alt="Abhishek" style="width:100%"> -->
+        <div class="card-body">
+          <h2 class="card-title">MISSA</h2>
+          <p class="title">Class of </p>
+          <p class="title">Blank</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <!-- <img src="pic.jpg" alt="Christian" style="width:100%"> -->
+        <div class="card-body">
+          <h2 class="card-title">MISSA</h2>
+          <p class="title">Class of </p>
+          <p class="title">Blank</p>
+        </div>
+      </div>
+    </div>
+  </div>
+        <!-- </div> -->
+      </div>
+          </div>
 
 
           <footer class="footer-nav text-center bg-light">
@@ -289,7 +434,7 @@
                         <li><a href="https://www.facebook.com/cppmissa/"><i class="fab fa-facebook"></i>
                         </a>
                         </li>
-                        <li><a href="https://www.linkedin.com/company/cppmissa"><i class="fab fa-linkedin-in	"></i>
+                        <li><a href="https://www.linkedin.com/in/cppmissa/"><i class="fab fa-linkedin-in	"></i>
                         </a>
                         </li>
                         <li><a href="https://www.instagram.com/cppmissa/"><i class="fab fa-instagram"></i>
@@ -305,6 +450,28 @@
 
             </section>
           </footer>
+
+<script>
+function myFunction() {
+    var input, filter, cards, cardContainer, h2, title,year, i;
+    input = document.getElementById("myFilter");
+    filter = input.value.toUpperCase();
+    cardContainer = document.getElementById("myItems");
+    cards = cardContainer.getElementsByClassName("card");
+
+    for (i = 0; i < cards.length; i++) {
+        title = cards[i].querySelector(".card-body h2.card-title");
+        year = cards[i].querySelector(".card-body p.title");
+        if (year.innerText.toUpperCase().indexOf(filter) > -1) {
+            cards[i].style.display = "";
+        } else if (title.innerText.toUpperCase().indexOf(filter) > -1) {
+            cards[i].style.display = "";
+        } else {
+            cards[i].style.display = "none";
+        }
+    }
+}
+</script>
 
 
 

@@ -284,9 +284,9 @@ p.meeting-time{
   font-size: 40px;;
 }
 
-/* .card{
-  padding-top: 70px;
-} */
+.card{
+  padding-bottom: 30px;
+}
 
 .col-lg-2 {
   padding: 0 0;
@@ -444,9 +444,9 @@ h3,p{
   .carousel-control-prev, .carousel-indicators, #carouselExampleIndicators, .card-img-top, #carousel-example {
     display: none !important;
   }
-  body{
+  /* body{
     font-size: 1rem;
-  }
+  } */
   .navbar-brand img {
     width: 100px;
   }
@@ -592,9 +592,11 @@ h3,p{
   border: none;
   outline: 0;
   color: #e7e6e6;
-  text-align: center;
   cursor: pointer;
-
+  padding: 5px 35px;
+  margin: 5px 0px;
+  text-align: center;  
+  
 }
 
 .button:hover {
@@ -667,24 +669,36 @@ details[open] summary {
 @media (min-width: 320px) and (max-width: 1024px) {
   .button{
     padding: 5px 50px;
-    font-size: 1rem;
     margin: 5px 0px;
     text-align: center;
     min-width: 100%;
   
   }
+  .name{
+    font-size: 2rem;
+    max-width: 100%;
+  }
 
 }
 
 /* Desktops, Extra Large Screens: 1025px and More */
-
+/* 
 @media (min-width: 1025px)  {
   .button {
-    font-size: 1rem;
     padding: 5px 40px;
     margin: 5px 0px;
-    display: inline-block;
+    text-align: center;
   
+  }
+
+  
+} */
+
+
+
+@media (min-width: 576px) and (max-width: 636px){
+  p.space{
+    margin-bottom: 40px;
   }
 }
 
