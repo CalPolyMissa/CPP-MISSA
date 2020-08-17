@@ -439,14 +439,14 @@ h3,p{
 }
 }
 
+/* =================================================== 
+      # Mobile and iPad size 200px to 767px                                 
+=================================================== */
 @media (min-width: 200px) and (max-width: 767.98px) {
-  .img-fluid, .single-img, .carousel-control-next,
-  .carousel-control-prev, .carousel-indicators, #carouselExampleIndicators, .card-img-top, #carousel-example {
+  .shadow-img, .single-img {
     display: none !important;
   }
-  /* body{
-    font-size: 1rem;
-  } */
+
   .navbar-brand img {
     width: 100px;
   }
@@ -561,7 +561,7 @@ h3,p{
     display: block;
   }
 }
-
+ 
 /* Add some shadows to create a card effect */
 .tab {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
