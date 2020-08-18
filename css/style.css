@@ -285,7 +285,7 @@ p.meeting-time{
 }
 
 .card{
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
 }
 
 .col-lg-2 {
@@ -439,34 +439,7 @@ h3,p{
 }
 }
 
-/* =================================================== 
-      # Mobile and iPad size 200px to 767px                                 
-=================================================== */
-@media (min-width: 200px) and (max-width: 767.98px) {
-  .shadow-img, .single-img {
-    display: none !important;
-  }
 
-  .navbar-brand img {
-    width: 100px;
-  }
-
-  .image-sm{
-    height: 2rem !important;
-  }
-
-  h3{
-    font-size: 40px;
-  }
-
-
-
-
-
-
-
-
- }
 
  div.plat{
    font-size: 40px ;
@@ -662,8 +635,36 @@ details[open] summary {
 }
 
 
+/* =================================================== 
+      # Mobile and iPad size 200px to 767px                                 
+=================================================== */
+@media (min-width: 200px) and (max-width: 767.98px) {
+  .shadow-img, .single-img {
+    display: none !important;
+  }
 
-/* Mobile, iPads, Small screen Laptops:  320px - 1024px  */
+  .navbar-brand img {
+    width: 100px;
+  }
+
+  .image-sm{
+    height: 2rem !important;
+  }
+
+  h3{
+    font-size: 40px;
+  }
+
+
+ }
+
+/* =================================================== 
+      # Mobile and iPad size 200px to 767px                                 
+=================================================== */
+
+/* =================================================== 
+      /* Mobile, iPads, Small screen Laptops:  320px - 1024px                              
+=================================================== */
 
 
 @media (min-width: 320px) and (max-width: 1024px) {
@@ -679,7 +680,16 @@ details[open] summary {
     max-width: 100%;
   }
 
+  img{
+    width: 80px !important;
+  }
 }
+
+/* =================================================== 
+    /* Mobile, iPads, Small screen Laptops:  320px - 1024px                                
+=================================================== */
+
+
 
 /* Desktops, Extra Large Screens: 1025px and More */
 /* 
@@ -702,3 +712,13 @@ details[open] summary {
   }
 }
 
+ul.sponsors {
+  width: 100%;
+  text-align: center;
+}
+
+ul.sponsors li{
+  display: inline;
+  padding: 10px;
+  max-width: fit-content;
+}
