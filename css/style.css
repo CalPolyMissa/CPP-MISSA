@@ -692,7 +692,7 @@ details[open] summary {
 
 
 /* Desktops, Extra Large Screens: 1025px and More */
-/* 
+
 @media (min-width: 1025px)  {
   .button {
     padding: 5px 40px;
@@ -702,7 +702,9 @@ details[open] summary {
   }
 
   
-} */
+} 
+
+/* Desktops, Extra Large Screens: 1025px and More */
 
 
 
