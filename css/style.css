@@ -174,7 +174,8 @@ h3::first-letter {
 
 /* Tech Mixer HTML */
 .tech-mix-benefits{
-  list-style-type: circle;
+  list-style-type: none;
+  padding: 0px
 }
 
 ul.tech-mix-benefits li{
