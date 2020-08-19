@@ -57,7 +57,7 @@ i{
 
 
 ul.navbar-nav a{
-    font-size: 25px;
+    font-size: 20px;
     color: black !important;
     font-weight: 300;
 
@@ -639,7 +639,7 @@ details[open] summary {
       # Mobile, iPads, Small screen Laptops:  200px to 767px                                 
 =================================================== */
 @media (min-width: 200px) and (max-width: 767.98px) {
-  .shadow-img, .single-img {
+  .shadow-img, .single-img, .sponsors {
     display: none !important;
   }
 
@@ -680,9 +680,6 @@ details[open] summary {
     max-width: 100%;
   }
 
-  img{
-    width: 80px !important;
-  }
 }
 
 /* =================================================== 
