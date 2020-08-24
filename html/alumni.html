@@ -44,19 +44,10 @@
                   <div class="dropdown-menu">
                     <a class="dropdown-item" href="./about.html">About MISSA</a>
                     <a class="dropdown-item" href="./eboard.html">E-board</a>
-                    <a class="dropdown-item" href="./alumni.html">Alumni</a>
 
-                    <hr>
-
-                    <a class="dropdown-item" href="dataAnalytic.html">Data Analytics Team</a>
-
-                  
                   </div>
 
                 </li>
-
-            
-
                 <li class="nav-item dropdown ">
                   <a class="nav-link dropdown-toggle active" href="#" id="navbardrop" data-toggle="dropdown">Events</a>
                   <div class="dropdown-menu">
@@ -90,10 +81,15 @@
 
           <h3 style="text-align:center">MISSA Alumni</h3>
 
+            <p style="text-align:center">Search for our MISSA alumni by their <span class="highlight">name or graduation year</span>.</p>
 
 
           <div class="container">
-            
+            <div class="row">
+              <div class="col-sm-12 mb-3">
+                <input type="text" id="myFilter" class="form-control" onkeyup="myFunction()" placeholder="Search...">
+              </div>
+            </div>
             <!-- <div id="myDIV"> -->
             <div class = "search" id="myItems">
             <div class="row">
@@ -401,28 +397,6 @@
         </div>
       </div>
     </div>
-
-    <div class="column">
-      <div class="card">
-        <!-- <img src="pic.jpg" alt="Abhishek" style="width:100%"> -->
-        <div class="card-body">
-          <h2 class="card-title">MISSA</h2>
-          <p class="title">Class of </p>
-          <p class="title">Blank</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="column">
-      <div class="card">
-        <!-- <img src="pic.jpg" alt="Christian" style="width:100%"> -->
-        <div class="card-body">
-          <h2 class="card-title">MISSA</h2>
-          <p class="title">Class of </p>
-          <p class="title">Blank</p>
-        </div>
-      </div>
-    </div>
   </div>
         <!-- </div> -->
       </div>
@@ -455,7 +429,7 @@
             </section>
           </footer>
 
-<script>
+<!-- <script>
 function myFunction() {
     var input, filter, cards, cardContainer, h2, title,year, i;
     input = document.getElementById("myFilter");
@@ -475,10 +449,10 @@ function myFunction() {
         }
     }
 }
-</script>
+</script> -->
 
 
-
+<script src="../script.js"></script>
 
 
 
