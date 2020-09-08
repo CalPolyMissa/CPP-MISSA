@@ -702,7 +702,7 @@ details[open] summary {
   }
 
   .adjust-carousel {
-    height: 677px !important; 
+    height: 600px !important; 
   }
 
   
@@ -728,3 +728,4 @@ ul.sponsors li{
   padding: 10px;
   max-width: fit-content;
 }
+
