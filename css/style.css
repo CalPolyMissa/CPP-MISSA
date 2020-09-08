@@ -681,6 +681,8 @@ details[open] summary {
     max-width: 100%;
   }
 
+  
+
 }
 
 /* =================================================== 
@@ -697,6 +699,10 @@ details[open] summary {
     margin: 5px 0px;
     text-align: center;
   
+  }
+
+  .adjust-carousel {
+    height: 677px !important; 
   }
 
   
