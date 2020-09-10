@@ -702,7 +702,13 @@ details[open] summary {
   }
 
   .adjust-carousel {
-    height: 600px !important; 
+    height: 580px !important; 
+    width: 700px !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: gray;
   }
 
   
