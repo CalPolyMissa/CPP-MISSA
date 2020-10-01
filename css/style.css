@@ -735,3 +735,12 @@ ul.sponsors li{
   max-width: fit-content;
 }
 
+
+/* Professional Tech Mixer Google Sheet */
+
+iframe {
+  width: 70%;
+  height: 500px;
+  margin: 0 auto;
+  display: block;
+}
