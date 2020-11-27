@@ -168,6 +168,17 @@ h3::first-letter {
     color: #ff7070;
   }
 
+  h4{
+    font-size: 35px;
+  }
+  
+  h4::first-letter {
+      font-size: 50px !important;
+      font-weight: bold;
+      color: #ff7070;
+    }
+
+
 /* Fonts */
 
 
@@ -744,3 +755,47 @@ iframe {
   margin: 0 auto;
   display: block;
 }
+
+.date {
+  margin: auto;
+  padding: 0 10px 0 10px;
+  text-align: center;
+  color: gray;
+  width: 50%;
+  font-size: 18px;
+  border-right: gray;
+  border-right-style: double;
+  font-weight: 900;
+}
+
+.date strong {
+  font-size: 60px;
+  color: #ff7070;
+}
+
+
+
+.events p.speakers {
+  font-weight: 900;
+  width: 100%;
+}
+
+.events .info-box {
+  margin: 20px 0;
+  padding: 30px 10px 30px 10px;
+  text-align: left;
+  font-size: 15px;
+}
+
+a.btn-event{
+  font-size: 16px;
+  padding: 5px 30px;
+  margin: 20px 0px;
+}
+
+.btn-event:hover {
+  color: #ffffff
+}
+
+
+
