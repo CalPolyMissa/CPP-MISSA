@@ -314,9 +314,8 @@ ul.membership-benefits li{
 }
 
 .card{
-  border: none;
   margin: 0 20px;
-  border-radius: 50px;
+  border-radius: 10px;
 }
 
 .eboard-img{
