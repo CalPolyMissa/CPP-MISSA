@@ -64,7 +64,7 @@ ul.navbar-nav a{
 }
 
 ul.navbar-nav a.nav-link{
-    padding: 0 30px !important;
+    padding: 0 24px !important;
 }
 
 .dropdown-menu a:hover{
@@ -774,7 +774,7 @@ ul.sponsors li{
 }
 
 
-/* Professional Tech Mixer Google Sheet */
+/* Fall Professional Tech Mixer Google Sheet */
 
 iframe {
   width: 70%;

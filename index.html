@@ -7,8 +7,14 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-2CS8Y46RBG');
+
+  gtag('event', 'screen_view', 
+   {
+    'screen_name': 'Home'
+    }
+  );
+
 </script>
   <title>MISSA</title>
   <meta charset="utf-8">
@@ -68,14 +74,15 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Events</a>
           <div class="dropdown-menu">
+            <a class="dropdown-item" href="./html/calendar.html">Schedule</a>
+            <hr>
             <a class="dropdown-item" href="./html/itc.html">IT Competition</a>
             <a class="dropdown-item " href="./html/itc-prev-case.html">ITC Previous Cases</a>
             <hr>
-            <a class="dropdown-item" href="./html/techMixer.html">Professional Tech Mixer</a>
-            <a class="dropdown-item" href="./html/CSAF.html">Cyber Security & Awareness Fair</a>
+            <a class="dropdown-item" href="./html/fall-tech-mixer.html">Fall Professional Tech Mixer</a>
+            <a class="dropdown-item nav-link disabled" href="./html/fall-tech-mixer.html">Spring Tech Mixer Coming Soon</a>
             <hr>
-            <a class="dropdown-item" href="./html/calendar.html">Schedule</a>
-
+            <a class="dropdown-item" href="./html/CSAF.html">Cyber Security & Awareness Fair</a>
           </div>
         </li>
 
