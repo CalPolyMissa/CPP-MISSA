@@ -579,6 +579,8 @@ h3,p{
 .container {
   padding: 15px 14px 18px 10px;
   text-align: center;
+  border-radius: 10px;
+
 }
 
 /* Clear floats */
@@ -808,8 +810,8 @@ iframe {
 }
 
 .events .info-box {
-  margin: 20px 0;
-  padding: 30px 10px 30px 10px;
+  margin: 10px 0;
+  padding: 10px 10px 10px 10px;
   text-align: left;
   font-size: 15px;
 }
@@ -826,3 +828,8 @@ a.btn-event{
 
 
 
+.image-sm {
+  border-radius: 10px;
+  box-shadow: 0 2px 10px #bcbcc8;
+  padding: 10px;
+}
