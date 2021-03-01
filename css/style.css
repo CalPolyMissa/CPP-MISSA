@@ -157,10 +157,15 @@ a.btn:hover{
 }
 
 
+p.and-more{
+  font-size: 42px;
+}
+
 /* Fonts */
 h3{
   font-size: 42px;
 }
+
 
 h3::first-letter {
     font-size: 70px !important;
