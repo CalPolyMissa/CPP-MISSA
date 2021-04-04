@@ -1,0 +1,465 @@
+[
+    {
+       "value":{
+          "label": {
+            "translatable":true, 
+            "message":"Locations"
+          }
+       },
+       "children":{
+          "action":{
+             "label": {
+                "translatable":true, 
+                "message":"Report Issue"
+              },
+             "type":"route",
+             "rightIcon":"chevron-right-fill",
+             "value":{
+                "route":"catalog",
+                "fields":{
+                   "sysId": "3f1dd0320a0a0b99000a53f7604a2ef9"
+                }
+             }
+          },
+          "items":[
+             {
+                "value":{
+                   "label": {
+                      "translatable":true, 
+                      "message":"Menu Item 1"
+                    }
+                },
+                "children":{
+                   "action":{
+                      "label": {
+                          "translatable":true, 
+                          "message":"Browse Menu Item 1"
+                        },
+                      "type":"route",
+                      "rightIcon":"chevron-right-fill",
+                      "value":{
+                          "route":"article",
+                            "fields":{
+                              "sysId": "3020c9b1474321009db4b5b08b9a712d"
+                        }
+                      }
+                   },
+                   "items":[
+                      {
+                         "value":{
+                            "label":{
+                              "translatable":true, 
+                              "message":"Menu Item 1.1"
+                            },
+                            "type":"route",
+                            "value":{
+                              "route":"article",
+                                 "fields":{
+                                    "sysId": "3020c9b1474321009db4b5b08b9a712d"
+                              }
+                            }
+                          }
+                      },
+                      {
+                         "value":{
+                            "label":{
+                              "translatable":true, 
+                              "message":"Menu Item 1.2"
+                            },
+                            "type":"route",
+                            "value":{
+                              "route":"article",
+                                 "fields":{
+                                    "sysId": "3020c9b1474321009db4b5b08b9a712d"
+                              }
+                            }
+                         }
+                      }
+                   ]
+                }
+             },
+             {
+                "value":{
+                   "label": {
+                      "translatable":true, 
+                      "message":"Menu Item 2"
+                    }
+                },
+                "children":{
+                   "action":{
+                      "label": {
+                        "translatable":true, 
+                        "message":"Browse Menu Item 2"
+                      },
+                      "type":"route",
+                      "rightIcon":"chevron-right-fill",
+                      "value":{
+                        "route":"article",
+                            "fields":{
+                              "sysId": "3020c9b1474321009db4b5b08b9a712d"
+                        }
+                      }
+                   },
+                   "items":[
+                      {
+                         "value":{
+                            "label": {
+                                "translatable":true, 
+                                "message":"Menu Item 2.1"
+                              },
+                            "type":"external",
+                            "rightIcon":"open-link-fill",
+                            "value":{"href": "https://dev90128.service-now.com/sp?id=sc_cat_item&sys_id=35e7efd32f0fa010eea3ddda2799b604&referrer=recent_items"}
+                         }
+                      },
+                      {
+                         "value":{
+                            "label": {
+                                "translatable":true, 
+                                "message":"Menu Item 2.2"
+                              },
+                            "type":"external",
+                            "rightIcon":"open-link-fill",
+                            "value":{"href": "www.servicenow.com"}
+                         }
+                      },
+                      {
+                         "value":{
+                            "label": {
+                                "translatable":true, 
+                                "message":"Menu Item 2.3"
+                              },
+                            "type":"external",
+                            "rightIcon":"open-link-fill",
+                            "value":{"href": "www.servicenow.com"}
+                         }
+                      }
+                   ]
+                }
+             }
+          ]
+       }
+    },
+    {
+       "value":{
+          "label": {
+              "translatable":true, 
+              "message":"Menu 2"
+            }
+       },
+       "children":{
+          "action":{
+             "label": {
+                "translatable":true, 
+                "message":"Perform another action"
+              },
+             "type":"route",
+             "rightIcon":"chevron-right-fill",
+             "value":{
+                "route":"article",
+                    "fields":{
+                      "sysId": "8aef1935474321009db4b5b08b9a7113"
+                }
+             }
+          },
+          "items":[
+             {
+                "value":{
+                   "label": {
+                      "translatable":true, 
+                      "message":"Menu Item 1"
+                    }
+                },
+                "children":{
+                   "action":{
+                      "label": {
+                          "translatable":true, 
+                          "message":"Browse all Menu Item 1"
+                        },
+                      "type":"route",
+                      "rightIcon":"chevron-right-fill",
+                      "value":{
+                        "route":"article",
+                            "fields":{
+                              "sysId": "8aef1935474321009db4b5b08b9a7113"
+                        }
+                      }
+                   },
+                   "items":[
+                      {
+                         "value":{
+                            "label":{
+                                "translatable":true, 
+                                "message":"Menu Item 1.1"
+                              }
+                         },
+                         "children":{
+                            "action":{
+                               "label":{
+                                  "translatable":true, 
+                                  "message":"Browse all Menu Item 1.1"
+                                },
+                               "type":"route",
+                               "rightIcon":"chevron-right-fill",
+                               "value":{
+                                  "route":"article",
+                                    "fields":{
+                                      "sysId": "8aef1935474321009db4b5b08b9a7113"
+                                  }
+                               }
+                            },
+                            "items":[
+                               {
+                                  "value":{
+                                     "label":{
+                                        "translatable":true, 
+                                        "message":"Menu Item 1.1.1"
+                                      },
+                                     "type":"route",
+                                     "value":{
+                                        "route":"article",
+                                          "fields":{
+                                            "sysId": "8aef1935474321009db4b5b08b9a7113"
+                                        }
+                                      }
+                                  }
+                               },
+                               {
+                                  "value":{
+                                     "label": {
+                                        "translatable":true, 
+                                        "message":"Menu Item 1.1.2"
+                                      },
+                                     "value":{
+                                        "route":"article",
+                                          "fields":{
+                                            "sysId": "8aef1935474321009db4b5b08b9a7113"
+                                          }
+                                      }
+                                     
+                                  }
+                               }
+                            ]
+                         }
+                      },
+                      {
+                         "value":{
+                            "label":{
+                                "translatable":true, 
+                                "message":"Menu Item 1.2"
+                              }
+                         },
+                         "children":{
+                            "action":{
+                               "label": {
+                                  "translatable":true, 
+                                  "message":"Browse all Menu Item 1.2"
+                                },
+                               "type":"route",
+                               "rightIcon":"chevron-right-fill",
+                               "value":{
+                                  "route":"article",
+                                    "fields":{
+                                      "sysId": "8aef1935474321009db4b5b08b9a7113"
+                                  }
+                               }
+                            },
+                            "items":[
+                               {
+                                  "value":{
+                                     "label": {
+                                        "translatable":true, 
+                                        "message":"Menu Item 1.2.1"
+                                      },
+                                     "type":"external",
+                                     "rightIcon":"open-link-fill",
+                                     "value":{"href": "www.servicenow.com"}
+                                     
+                                  }
+                               },
+                               {
+                                  "value":{
+                                     "label": {
+                                        "translatable":true, 
+                                        "message":"Menu Item 1.2.2"
+                                      },
+                                     "type":"external",
+                                     "rightIcon":"open-link-fill",
+                                     "value":{"href": "www.servicenow.com"}
+                                     
+                                  }
+                               },
+                               {
+                                  "value":{
+                                     "label":{
+                                        "translatable":true, 
+                                        "message":"Menu Item 1.2.3"
+                                      },
+                                     "type":"external",
+                                     "rightIcon":"open-link-fill",
+                                     "value":{"href": "www.servicenow.com"}
+                                     
+                                  }
+                               }
+                            ]
+                         }
+                      }
+                   ]
+                }
+             },
+             {
+                "value":{
+                   "label":{
+                      "translatable":true, 
+                      "message":"Menu Item 2"
+                    }
+                },
+                "children":{
+                   "action":{
+                      "label":{
+                          "translatable":true, 
+                          "message":"Browse all Menu Item 2"
+                        },
+                      "type":"route",
+                      "rightIcon":"chevron-right-fill",
+                      "value":{
+                        "route":"article",
+                          "fields":{
+                            "sysId": "8aef1935474321009db4b5b08b9a7113"
+                        }
+                      }
+                   },
+                   "items":[
+                      {
+                         "value":{
+                            "label":{
+                                "translatable":true, 
+                                "message":"Menu Item 2.1"
+                              }
+                         },
+                         "children":{
+                            "action":{
+                               "label":{
+                                    "translatable":true, 
+                                    "message":"Browse all Menu Item 2.1"
+                                  },
+                               "type":"route",
+                               "rightIcon":"chevron-right-fill",
+                               "value":{
+                                  "route":"article",
+                                    "fields":{
+                                      "sysId": "8aef1935474321009db4b5b08b9a7113"
+                                  }
+                               }
+                            },
+                            "items":[
+                               {
+                                  "value":{
+                                     "label":{
+                                        "translatable":true, 
+                                        "message":"Menu Item 2.1.1"
+                                      },
+                                     "type":"route",
+                                     "value":{
+                                        "route":"article",
+                                          "fields":{
+                                            "sysId": "8aef1935474321009db4b5b08b9a7113"
+                                        }
+                                      }
+                                  }
+                               },
+                               {
+                                  "value":{
+                                     "label":{
+                                          "translatable":true, 
+                                          "message":"Menu Item 2.1.2"
+                                        },
+                                     "type":"route",
+                                     "value":{
+                                        "route":"article",
+                                          "fields":{
+                                            "sysId": "8aef1935474321009db4b5b08b9a7113"
+                                        }
+                                      }
+                                  }
+                               }
+                            ]
+                         }
+                      },
+                      {
+                         "value":{
+                            "label":{
+                                "translatable":true, 
+                                "message":"Menu Item 2.2"
+                              }
+                         },
+                         "children":{
+                            "action":{
+                               "label":{
+                                    "translatable":true, 
+                                    "message":"Browse all Menu Item 2.2"
+                                  },
+                               "type":"route",
+                               "rightIcon":"chevron-right-fill",
+                               "value":{
+                                  "route":"article",
+                                    "fields":{
+                                      "sysId": "8aef1935474321009db4b5b08b9a7113"
+                                  }
+                               }
+                            },
+                            "items":[
+                               {
+                                  "value":{
+                                     "label":{
+                                        "translatable":true, 
+                                        "message":"Menu Item 2.2.1"
+                                      },
+                                     "type":"external",
+                                     "rightIcon":"open-link-fill",
+                                     "value":{"href": "www.servicenow.com"}
+                                     
+                                  }
+                               }
+                            ]
+                         }
+                      }
+                   ]
+                }
+             }
+          ]
+       }
+    },
+    {
+       "value":{
+          "label":{
+              "translatable":true, 
+              "message":"Locations"
+            },
+          "target":"",
+          "type":"route",
+          "value":{
+            "route":"locations",
+              "fields":{
+                "sysId": ""
+            }
+          }
+       }
+    },
+    {
+       "value":{
+          "label":{
+              "translatable":true, 
+              "message":"Vaccine"
+            },
+          "target":"",
+          "type":"route",
+          "value":{
+            "route":"catalog",
+              "fields":{
+                "sysId": "35e7efd32f0fa010eea3ddda2799b604"
+            }
+          }
+       }
+    }
+ ]
