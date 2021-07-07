@@ -28,12 +28,16 @@ i{
   margin-left: 0;
   margin-right: 0;
   margin: 2% 0;
+}
 
+.lineheightShrink {
+  line-height: 1.225;
 }
 
 @media(max-width: 576px){
   .row{
     margin: 0 auto;
+  
   }
   .mx-2{
     margin: 5px !important;
@@ -701,7 +705,18 @@ details[open] summary {
     font-size: 40px;
   }
 
+  .lineheightShrink {
+    line-height: 1.31;
+  }
 
+  .fontChanger {
+    font-size: 19px;
+  }
+
+  .button  {
+    padding: 8px 50px;
+    margin: 8px 0px;
+  }
  }
 
 /* =================================================== 
@@ -746,6 +761,12 @@ details[open] summary {
   
   }
 
+  .specialButton {
+    padding: 7.5px 50px;
+    margin: 5px 0px;
+    margin-top: 0.05rem;
+  }
+
   .adjust-carousel {
     height: 580px !important; 
     width: 700px !important;
@@ -766,6 +787,22 @@ details[open] summary {
 @media (min-width: 576px) and (max-width: 636px){
   p.space{
     margin-bottom: 40px;
+  }
+
+  .specialButton {
+    padding: 6.5px 50px;
+    margin: 5px 0px;
+   
+  }
+
+  .specialButton1 {
+    margin-top: -0.1rem;
+    margin-bottom: 0.1rem;
+  }
+
+  .specialButton2 {
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
   }
 }
 
