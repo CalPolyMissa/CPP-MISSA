@@ -2,22 +2,23 @@
   --bulma-primary-h: 2deg;
   --bulma-primary-s: 77%;
   --bulma-primary-l: 70%;
-  --bulma-link-h: 175deg;
-  --bulma-link-s: 54%;
-  --bulma-link-l: 75%;
+  --bulma-link-h: 178deg;
+  --bulma-link-s: 99%;
+  --bulma-link-l: 27%;
   --bulma-info-h: 0deg;
   --bulma-info-s: 0%;
-  --bulma-info-l: 0%;
-  --bulma-success-h: 240deg;
-  --bulma-success-s: 0%;
-  --bulma-success-l: 52%;
-  --bulma-warning-h: 0deg;
-  --bulma-warning-s: 62%;
-  --bulma-warning-l: 57%;
+  --bulma-info-l: 91%;
+  --bulma-success-h: 175deg;
+  --bulma-success-s: 54%;
+  --bulma-success-l: 75%;
+  --bulma-warning-h: 38deg;
+  --bulma-warning-s: 99%;
+  --bulma-warning-l: 51%;
   --bulma-danger-h: 0deg;
-  --bulma-danger-s: 0%;
-  --bulma-danger-l: 98%;
+  --bulma-danger-s: 62%;
+  --bulma-danger-l: 57%;
 }
+
 
 html {
   background: url(..\images\Background.JPG) no-repeat center center fixed;
@@ -27,7 +28,7 @@ html {
   background-size: cover;
 }
 
-.navbar {
-  padding-left: 10 em;
-  padding-right: 1 em;
+nav {
+  padding-left: 5%;
+  padding-right: 5%;
 }
