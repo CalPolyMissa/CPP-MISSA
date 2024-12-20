@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html class="has-navbar-fixed-top" lang="en-US">
   <head>
     <meta charset="utf-8" />
     <meta
@@ -26,7 +26,7 @@
     <!-- Navigation Container -->
     <div class="container">
       <!-- NAVBAR -->
-      <nav class="navbar" role="navigation" aria-label="main navigation">
+      <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <!-- MISSA Logo -->
         <div class="navbar-brand">
           <a class="navbar-item" href="#">
@@ -310,7 +310,7 @@
           <div class="column is-3">
             <!-- General Meetings Title -->
             <p class="title is-4">General Meeting Information</p>
-            <!-- MISSA Description -->  
+            <!-- MISSA Description -->
             <p class="subtitle">
               Come join us on our weekly meetings in-person or on Zoom. We
               discuss a variety of topics on business, technology and
@@ -318,7 +318,12 @@
               Administration (CBA building) in Room 2215. We also provide pizza
               and drinks to students!
             </p>
-            <a class="button is-primary" href="https://www.cpp.edu/maps?id=1130#!m/276432?share" target="_blank">Map to CBA</a>
+            <a
+              class="button is-primary"
+              href="https://www.cpp.edu/maps?id=1130#!m/276432?share"
+              target="_blank"
+              >Map to CBA</a
+            >
           </div>
           <!-- Image -->
           <div class="column is-4 is-offset-1">
@@ -330,59 +335,69 @@
 
     <!-- Main Page Footer Section -->
     <!-- Main container -->
-    <section class="hero is-primary is-medium">
+    <section class="hero is-primary">
       <div class="hero-body">
-        <nav class="level">
-          <!-- Left side -->
-          <div class="level-left">
-            <div class="level-item">
-              <p class="subtitle is-5"><strong>CONNECT WITH US</strong></p>
+        <div class="fixed-grid has-1-cols">
+          <div class="grid has-text-centered">
+            <div class="cell">
+              <nav class="level">
+                <!-- Left side -->
+                <div class="level-left">
+                  <div class="level-item">
+                    <p class="subtitle is-5">
+                      <strong>CONNECT WITH US</strong>
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Right side -->
+                <div class="level-right">
+                  <img
+                    class="level-item"
+                    src="images\discord icon.png"
+                    alt="discord icon"
+                    style="width: 24px; height: 24px"
+                  />
+                  <img
+                    class="level-item"
+                    src="images\instagram icon.png"
+                    alt="instagram icon"
+                    style="width: 24px; height: 24px"
+                  />
+                  <img
+                    class="level-item"
+                    src="images\linkedin icon.png"
+                    alt="linkedin icon"
+                    style="width: 24px; height: 24px"
+                  />
+                  <img src="" alt="lintree icon" class="level-item"><a href="https://linktr.ee/cppmissa"></a>
+                </div>
+              </nav>
+            </div>
+            <div class="cell is-row-start-8">
+              <!-- Bottom Level -->
+              <nav class="level">
+                <!-- Left side -->
+                <div class="level-left">
+                  <img
+                    class="level-item"
+                    src="images\email icon.png"
+                    alt="email icon"
+                    style="width: 24px; height: 24px"
+                  />
+                  <div class="level-item">
+                    <p>email@calpolymissa.org</p>
+                  </div>
+                </div>
+
+                <!-- Right side -->
+                <div class="level-right">
+                  <p class="level-item">© 2023 Management Information System Student Association</p>
+                </div>
+              </nav>
             </div>
           </div>
-
-          <!-- Right side -->
-          <div class="level-right">
-            <img
-              class="level-item"
-              src="images\discord icon.png"
-              alt="discord icon"
-              style="width: 24px; height: 24px"
-            />
-            <img
-              class="level-item"
-              src="images\instagram icon.png"
-              alt="instagram icon"
-              style="width: 24px; height: 24px"
-            />
-            <img
-              class="level-item"
-              src="images\linkedin icon.png"
-              alt="linkedin icon"
-              style="width: 24px; height: 24px"
-            />
-          </div>
-        </nav>
-        <!-- Bottom Level -->
-        <nav class="level">
-          <!-- Left side -->
-          <div class="level-left">
-            <img
-              class="level-item"
-              src="images\email icon.png"
-              alt="email icon"
-              style="width: 24px; height: 24px"
-            />
-            <div class="level-item">
-              <p class="subtitle is-5">email@calpolymissa.org</p>
-            </div>
-          </div>
-
-          <!-- Right side -->
-          <div class="level-right">
-            <p class="level-item"><a href="#">Privacy Policy</a></p>
-            <p class="level-item"><a href="#">MIT License</a></p>
-          </div>
-        </nav>
+        </div>
       </div>
     </section>
   </body>
