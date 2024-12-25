@@ -29,3 +29,13 @@ section {
   padding-right: 5%;
   margin: 0;
 }
+
+#center-in-div figure {
+  display: inline-table;
+  padding-block-start: 50%;
+}
+
+#benefits-section-padding {
+  padding-top: 5%;
+  padding-bottom: 8%;
+}
