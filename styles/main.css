@@ -1,3 +1,5 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+
 :root {
   --bulma-primary-h: 2deg;
   --bulma-primary-s: 77%;
@@ -38,4 +40,6 @@ section {
 #benefits-section-padding {
   padding-top: 5%;
   padding-bottom: 8%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
