@@ -1,258 +1,215 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2CS8Y46RBG"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2CS8Y46RBG"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('config', 'G-2CS8Y46RBG');
+      gtag('config', 'G-2CS8Y46RBG');
 
-  gtag('event', 'screen_view', 
-   {
-    'screen_name': 'DA-Applications'
-    }
-  );
-</script>
-  <title>MISSA</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="../img/Missa+Logo.png">
+      gtag('event', 'screen_view', 
+      {
+        'screen_name': 'DA-Applications'
+        }
+      );
+    </script>
 
+    <title>MISSA</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../img/Missa+Logo.png">
 
-  <!-- Font Awesome CSS -->
-  <link href="../lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link href="../lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 
-  <!--Custom CSS -->
-  <link rel="stylesheet" href="../css/style.css" type="text/css">
-  <link rel="stylesheet" href="../css/calendar.css" type="text/css">
-  <link rel="stylesheet" href="../css/itc-carousel.css" type="text/css">
+    <!--Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link rel="stylesheet" href="../css/calendar.css" type="text/css">
+    <link rel="stylesheet" href="../css/itc-carousel.css" type="text/css">
 
-  <!--javascript-->
- <script src="https://kit.fontawesome.com/66cf69f0b2.js" crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-</head>
-<body>
+   <!--javascript-->
+    <script src="https://kit.fontawesome.com/66cf69f0b2.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </head>
+  <!-- END HEAD -->
+  <!-- BEGIN BODY -->
+  <body>
+    <!-- BEGIN NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light  scrolling-navbar">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../img/Missa+Logo.png" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
 
-
-        <nav class="navbar navbar-expand-lg bg-white navbar-light  scrolling-navbar">
-            <a class="navbar-brand" href="../index.html">
-              <img src="../img/Missa+Logo.png" alt="logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="../index.html">Home</a>
-                </li>
-
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">About</a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="./about.html">About MISSA</a>
-                    <a class="dropdown-item" href="./eboard.html">E-board</a>
-                    <!-- <a class="dropdown-item" href="./alumni.html">Alumni</a>
-                    <hr>
-                    <a class="dropdown-item" href="./e-board-apps.html">E-board Applications</a>
-                    <hr>
-                    <a class="dropdown-item" href="./dataAnalytic.html">Data Analytics Team</a> -->
-                  </div>
-                </li>
-
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle active" href="#" id="navbardrop" data-toggle="dropdown">Data Analytics</a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="./da-team.html">Team Members</a>
-                    <a class="dropdown-item" href="./da-applications.html">Applications</a>
-                    <a class="dropdown-item" href="./da-projects.html">Projects</a>
-                  </div>
-                </li>
-
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Events</a>
-                  <div class="dropdown-menu">
-                    <hr>
-                    <a class="dropdown-item" href="./fall-tech-mixer.html">Fall Tech Mixer 2024</a>
-                    <a class="dropdown-item" href="./CSAF.html">CSAF Information</a>
-                    <a class="dropdown-item" href="./alumni-reunion.html">Alumni Reunion</a>
-                  </div>
-                </li>
-                
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">ITC</a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item " href="./itc-info.html">ITC Info</a>
-                    <a class="dropdown-item" href="./itc-past.html">ITC Past</a>
-                    <!--<a class="dropdown-item " href="./html/itc-testimonials.html">ITC Testimonials</a>-->
-                  </div>
-                </li>
-
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Membership</a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="./membership.html">Benefits</a>
-                    <a class="dropdown-item" href="membership.html#mentorship">Mentorship</a>
-                    
-
-                  </div>
-
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">FAQs</a>
-                  <div class="dropdown-menu">
-                    <!--a class="dropdown-item" href="./contact.html">Contact</a>-->
-                    <a class="dropdown-item" href="./FAQs.html">FAQs</a>
-                </li>
-              </ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbardrop" data-toggle="dropdown">About</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="./about.html">About MISSA</a>
+              <a class="dropdown-item" href="./eboard.html">E-board</a>
+              <!-- <a class="dropdown-item" href="./alumni.html">Alumni</a>
+              <hr>
+              <a class="dropdown-item" href="./e-board-apps.html">E-board Applications</a> -->
             </div>
-          </nav>
+          </li>
 
-          <div class="top-content">
-
-
-          <div class="row justify-content-center">
-
-
-            <div class="col-12 col-lg-9 mx-auto text-center" style="width: 74rem;" >
-              <div class="card-body">
-                <h3 class="mb-5">MISSA's Data Analytics Team Projects</h3>
-                  <h4>RMDS Data Science Competition</h4>
-                    <p class="card-text my-4">The Research Methods and Data Science Lab (also known as the RMDS Lab) is a community of analysts and researchers based out of Pasadena, CA. They aim to empower the scientific community and advance contributions through certification training, data impact consultation and other AI-powered services.
-                      During Spring 2021, the RMDS lab held a data science competition with the premise being to use machine learning along with other data analytics techniques to analyze how news sentiment, along with other factors such as the COVID-19 pandemic and a region’s mobility index, affected different stock prices of the fossil fuel industry.
-                      The previous 2021-2022 Co-Directors of the DA team, Ryan Peji and Marisa Nakanishi, took lead of this project and, while they didn’t place as high as hoped, they found it as a valuable learning experience. </p>
-                      <a href="../da-team/projects/rmds/RMDS FINAL.pdf" target="_blank">RMDS project</a>
-              
-                  <h4>ISACA Electric Vehicle Case Study</h4>
-                  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTR8_7bKP5G12O-VBtikNfPopb3ylRcEDDOLbXXD_4Z4sPIYoSIYAYI5i-t1WICU3iyDjwSiYOvu1ww/embed?start=true&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-                    <p class="card-text my-4"> ISACA Los Angeles Chapter, So Cal Edison, and MISSA's Data Analytics team worked together to work on a case study to analyze data and visualize data using PowerBI and Tableau to provide recommendations to SCE as to where to place Electric Vehicle Charging Stations in the most effective locations. The goal is to place the EV charging stations in areas that would make EV charging more accessible to residents living in multifamily buildings. At least 50% of the stations must be located in environmentally impacted and disadvantaged communities in order to encourage EV adoption in those areas. The team will be presenting their findings and teaching industry professionals how to achieve similar dashboards during the SheLeadsTech Conference.</p>
-      
-                  <h4>EMP SoCal Edison Project</h4>
-                  <iframe src="../da-team/projects/EMP SoCal Edison Project.pdf" alt="EMP Resilience and Prediction" frameborder = "0" width="1000" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-                  <p class="card-text my-4">So Cal Edison and MISSA's Data Analytics team analyzed the research question, "How can correlating EMPs with environmental and solar phenomena enhance SoCal Edison's preparedness for potential distruptions?" They used Python and Tableau libraries to craft visual representations providing in-depth analysis and exploration to identify key outcomes, trends, and conclusions.</p>
-
-                  <h4>SoCal Edison Power Outage Project</h4>
-                  <iframe src="../da-team/projects/SCE Power Outage Analysis.pdf" alt="SoCal Edison Power Outage Project" frameborder = "0" width="1000" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-                  <p class="card-text my-4">SoCal Edison and MISSA's Data Analytics team analyzed the reasons for the escalation in power outages whether it is due to heat waves, rainstorms, and/or rising instances of vandalism. MISSA's Data Analytics team goal is to leverage machine learning and data analysis to enable SoCal Edison to rapidly identify the outage type and expected duration of  power outage.</p>
-
-                  <h4>Forecasting Future Energy Needs</h4>
-                  <iframe src="../da-team/projects/Project 3 Final Deliverable.pdf" alt="Forecasting Future Energy Needs" frameborder = "0" width="1000" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-                  <p class="card-text my-4">SoCal Edison and MISSA's Data Analytics team's objective for this project is to develop a comprehensive system to forecast future energy requirements by county, supporting SCE in infrastructure development and resource allocation. The project aims to create customized energy-saving programs for areas with high energy usage.</p>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Data Analytics</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="./da-team.html">Team Members</a>
+              <a class="dropdown-item" href="./da-applications.html">Applications</a>
+              <a class="dropdown-item" href="./da-projects.html">Projects</a>
             </div>
-
-    
-
-              <!-- <div class="row justify-content-center"> -->
-
-              <!-- </div> -->
-
-              <!-- <div id="Important Dates" class="tabcontent">
-              <h5 class="card-title mt-5 text-center">Importants</h5>
-              <div class="card-body">
-              <ul class="list-group list-group-flush text-center">
-                <li class="list-group-item list-group-item-action">TBA</li>
-                <li class="list-group-item list-group-item-action">TBA</li>
-                <li class="list-group-item list-group-item-action">TBA</li>
-              </ul>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Events</a>
+            <div class="dropdown-menu">
+              <hr>
+              <a class="dropdown-item" href="./fall-tech-mixer.html">Fall Tech Mixer 2024</a>
+              <a class="dropdown-item" href="./CSAF.html">CSAF Information</a>
+              <a class="dropdown-item" href="./alumni-reunion.html">Alumni Reunion</a>
             </div>
-            </div> -->
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">ITC</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item " href="./itc-info.html">ITC Info</a>
+              <a class="dropdown-item" href="./itc-past.html">ITC Past</a>
+              <!--<a class="dropdown-item " href="./html/itc-testimonials.html">ITC Testimonials</a>-->
             </div>
-          </br>
+          </li>
 
-
-
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Membership</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="./membership.html">Benefits</a>
+              <a class="dropdown-item" href="membership.html#mentorship">Mentorship</a>
             </div>
+          </li>
 
-            <div class="col-12 col-lg-9 mt-5 text-center" style="width: 74rem;" >
-              <h3 class="mx-5">For More Information</h3>
-</div>
-              <div class="card-body">
-
-
-                  <p class="card-text">If you have any questions, please contact our Directors of DA.</p>
-
-
-
-              </div>
-
-              <div class="row">
-
-                <div class="col-lg-6 col-lg-6 ">
-                  <h2>Brandon Chang</h2>
-                  <a href="mailto:brandon.chang@calpolymissa.org"><button class="button btn-primary btn-md">Contact</button></a>
-
-                </div>
-                  <div class="col-lg-6 col-lg-6">
-                  <h2>Darien Lin</h2>
-                  <a href="mailto:darien.lin@calpolymissa.org"><button class="button btn-primary btn-md">Contact</button></a>
-                </div>
-              </div>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">FAQs</a>
+            <div class="dropdown-menu">
+              <!--a class="dropdown-item" href="./contact.html">Contact</a>-->
+              <a class="dropdown-item" href="./FAQs.html">FAQs</a>
             </div>
+          </li> 
+        </ul>
+      </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+    <div class="top-content">
+      <!-- BEGIN PROJECT DESCRIPTIONS -->
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-9 mx-auto text-center" style="width: 74rem;" >
+          <div class="card-body">
+            <h3 class="mb-5">MISSA's Data Analytics Team Projects</h3>
+              <h4>RMDS Data Science Competition</h4>
+                <p class="card-text my-4">The Research Methods and Data Science Lab (also known as the RMDS Lab) is a community of analysts and researchers based out of Pasadena, CA. They aim to empower the scientific community and advance contributions through certification training, data impact consultation and other AI-powered services.
+                  During Spring 2021, the RMDS lab held a data science competition with the premise being to use machine learning along with other data analytics techniques to analyze how news sentiment, along with other factors such as the COVID-19 pandemic and a region’s mobility index, affected different stock prices of the fossil fuel industry.
+                  The previous 2021-2022 Co-Directors of the DA team, Ryan Peji and Marisa Nakanishi, took lead of this project and, while they didn’t place as high as hoped, they found it as a valuable learning experience. </p>
+                  <a href="../da-team/projects/rmds/RMDS FINAL.pdf" target="_blank">RMDS project</a>
+          
+              <h4>ISACA Electric Vehicle Case Study</h4>
+              <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTR8_7bKP5G12O-VBtikNfPopb3ylRcEDDOLbXXD_4Z4sPIYoSIYAYI5i-t1WICU3iyDjwSiYOvu1ww/embed?start=true&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                <p class="card-text my-4"> ISACA Los Angeles Chapter, So Cal Edison, and MISSA's Data Analytics team worked together to work on a case study to analyze data and visualize data using PowerBI and Tableau to provide recommendations to SCE as to where to place Electric Vehicle Charging Stations in the most effective locations. The goal is to place the EV charging stations in areas that would make EV charging more accessible to residents living in multifamily buildings. At least 50% of the stations must be located in environmentally impacted and disadvantaged communities in order to encourage EV adoption in those areas. The team will be presenting their findings and teaching industry professionals how to achieve similar dashboards during the SheLeadsTech Conference.</p>
+
+              <h4>EMP SoCal Edison Project</h4>
+              <iframe src="../da-team/projects/EMP SoCal Edison Project.pdf" alt="EMP Resilience and Prediction" frameborder = "0" width="1000" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+              <p class="card-text my-4">So Cal Edison and MISSA's Data Analytics team analyzed the research question, "How can correlating EMPs with environmental and solar phenomena enhance SoCal Edison's preparedness for potential distruptions?" They used Python and Tableau libraries to craft visual representations providing in-depth analysis and exploration to identify key outcomes, trends, and conclusions.</p>
+
+              <h4>SoCal Edison Power Outage Project</h4>
+              <iframe src="../da-team/projects/SCE Power Outage Analysis.pdf" alt="SoCal Edison Power Outage Project" frameborder = "0" width="1000" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+              <p class="card-text my-4">SoCal Edison and MISSA's Data Analytics team analyzed the reasons for the escalation in power outages whether it is due to heat waves, rainstorms, and/or rising instances of vandalism. MISSA's Data Analytics team goal is to leverage machine learning and data analysis to enable SoCal Edison to rapidly identify the outage type and expected duration of  power outage.</p>
+
+              <h4>Forecasting Future Energy Needs</h4>
+              <iframe src="../da-team/projects/Project 3 Final Deliverable.pdf" alt="Forecasting Future Energy Needs" frameborder = "0" width="1000" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+              <p class="card-text my-4">SoCal Edison and MISSA's Data Analytics team's objective for this project is to develop a comprehensive system to forecast future energy requirements by county, supporting SCE in infrastructure development and resource allocation. The project aims to create customized energy-saving programs for areas with high energy usage.</p>
           </div>
 
-
-
-
-
-        </div>
-
-
-
-
-
-
-
-</div>
-
-
-
-
-
-          <footer class="footer-nav text-center bg-light">
-            <section>
-
-              <div class="container">
-                <h3>Connect With Us</h3>
-                <ul class="nav contact justify-content-center">
-                    <li><a href="https://linktr.ee/cppmissa"><i class="fab fa-readme"></i>
-                    </a>
-                    </li>
-                    <li><a href="https://discord.gg/Y3fCxj8ASy"><i class="fab fa-discord"></i>
-                    </a>
-                    </li>
-                    <li><a href="https://www.linkedin.com/company/cppmissa"><i class="fab fa-linkedin-in	"></i>
-                    </a>
-                    </li>
-                    <li><a href="https://www.instagram.com/cppmissa/"><i class="fab fa-instagram"></i>
-                    </a>
-                    </li>
+          <!-- <div class="row justify-content-center">
+            <div id="Important Dates" class="tabcontent">
+              <h5 class="card-title mt-5 text-center">Importants</h5>
+              <div class="card-body">
+                <ul class="list-group list-group-flush text-center">
+                  <li class="list-group-item list-group-item-action">TBA</li>
+                  <li class="list-group-item list-group-item-action">TBA</li>
+                  <li class="list-group-item list-group-item-action">TBA</li>
                 </ul>
-                
-                <p class="copyrights">&copy 2023 Management Information System Student Association</p>
               </div>
+            </div>
+          </div> -->
+        </div>
+        <!-- END PROJECT DESCRIPTIONS -->
+        <!-- BEGIN CONTACT BLOCK -->
+        <div class="col-12 col-lg-9 mt-5 text-center" style="width: 74rem;" >
+          <h3 class="mx-5">For More Information</h3>
 
-            </section>
-          </footer>
+          <div class="card-body">
+              <p class="card-text">If you have any questions, please contact our Directors of DA.</p>
+          </div>
 
-
-
-
-
-
-
-</body>
- </html>
-
- <script src="../script.js"></script>
+          <div class="row">
+            <div class="col-lg-6 col-lg-6">
+              <h2>Brandon Chang</h2>
+              <a href="mailto:brandon.chang@calpolymissa.org"><button class="button btn-primary btn-md">Contact</button></a>
+            </div>
+            <div class="col-lg-6 col-lg-6">
+              <h2>Darien Lin</h2>
+              <!--<a href="mailto:darien.lin@calpolymissa.org">--><button disabled class="button btn-primary btn-md">Contact</button>
+            </div>
+          </div>
+        </div>
+        <!-- END CONTACT BLOCK -->
+      </div>
+    </div>
+    <!-- BEGIN FOOTER -->
+    <footer class="footer-nav text-center bg-light">
+      <section>
+        <div class="container">
+          <h3>Connect With Us</h3>
+          <ul class="nav contact justify-content-center">
+              <li>
+                <a href="https://linktr.ee/cppmissa"><i class="fab fa-readme"></i></a>
+              </li>
+              <li>
+                <a href="https://discord.gg/Y3fCxj8ASy"><i class="fab fa-discord"></i></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/cppmissa"><i class="fab fa-linkedin-in	"></i></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/cppmissa/"><i class="fab fa-instagram"></i></a>
+              </li>
+          </ul>
+          <p class="copyrights">&copy 2023 Management Information System Student Association</p>
+        </div>
+      </section>
+    </footer>
+    <!-- END FOOTER -->
+  </body>
+  <!-- END BODY -->
+</html>
+<!-- I don't know what this is for? But it won't run out here. -->
+<script src="../script.js"></script>
