@@ -332,10 +332,16 @@ ul.membership-benefits li{
 }
 
 .eboard-img{
+  aspect-ratio: 3/4;
   width: 70%;
   margin: 0 auto;
+  object-fit: cover;
 }
 
+.eboard-card {
+  margin: 0 auto;
+  text-align: center;
+}
 
 .da-card{
   margin: 0 auto;
