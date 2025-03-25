@@ -1,204 +1,186 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2CS8Y46RBG"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- BEGIN HEAD -->
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2CS8Y46RBG"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('config', 'G-2CS8Y46RBG');
+      gtag('config', 'G-2CS8Y46RBG');
 
-  gtag('event', 'screen_view', 
-   {
-    'screen_name': 'DA-Applications'
-    }
-  );
-</script>
-  <title>MISSA</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="../img/Missa+Logo.png">
+      gtag('event', 'screen_view', 
+      {
+        'screen_name': 'DA-Applications'
+        }
+      );
+    </script>
 
+    <title>MISSA</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../img/Missa+Logo.png">
 
-  <!-- Font Awesome CSS -->
-  <link href="../lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link href="../lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 
-  <!--Custom CSS -->
-  <link rel="stylesheet" href="../css/style.css" type="text/css">
-  <link rel="stylesheet" href="../css/calendar.css" type="text/css">
-  <link rel="stylesheet" href="../css/itc-carousel.css" type="text/css">
+    <!--Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link rel="stylesheet" href="../css/calendar.css" type="text/css">
+    <link rel="stylesheet" href="../css/itc-carousel.css" type="text/css">
 
-  <!--javascript-->
- <script src="https://kit.fontawesome.com/66cf69f0b2.js" crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-</head>
-<body>
+    <!--javascript-->
+    <script src="https://kit.fontawesome.com/66cf69f0b2.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </head>
+  <!-- END HEAD -->
+  <!-- BEGIN BODY -->
+  <body>
+    <!-- BEGIN NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light  scrolling-navbar">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../img/Missa+Logo.png" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
 
-
-        <nav class="navbar navbar-expand-lg bg-white navbar-light  scrolling-navbar">
-            <a class="navbar-brand" href="../index.html">
-              <img src="../img/Missa+Logo.png" alt="logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="../index.html">Home</a>
-                </li>
-
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">About</a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="./about.html">About MISSA</a>
-                    <a class="dropdown-item" href="./eboard.html">E-board</a>
-                    <!-- <a class="dropdown-item" href="./alumni.html">Alumni</a>
-                    <hr>
-                    <a class="dropdown-item" href="./e-board-apps.html">E-board Applications</a>
-                    <hr>
-                    <a class="dropdown-item" href="./dataAnalytic.html">Data Analytics Team</a> -->
-                  </div>
-                </li>
-
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle active" href="#" id="navbardrop" data-toggle="dropdown">Data Analytics</a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="./da-team.html">Team Members</a>
-                    <a class="dropdown-item" href="./da-applications.html">Applications</a>
-                    <a class="dropdown-item" href="./da-projects.html">Projects</a>
-                  </div>
-                </li>
-
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Events</a>
-                  <div class="dropdown-menu">
-                    <hr>
-                    <a class="dropdown-item" href="./fall-tech-mixer.html">Fall Tech Mixer 2024</a>
-                    <a class="dropdown-item" href="./CSAF.html">CSAF Information</a>
-                    <a class="dropdown-item" href="./alumni-reunion.html">Alumni Reunion</a>
-                  </div>
-                </li>
-
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">ITC</a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item " href="./itc-info.html">ITC Info</a>
-                    <a class="dropdown-item" href="./itc-past.html">ITC Past</a>
-                    <!--<a class="dropdown-item " href="./html/itc-testimonials.html">ITC Testimonials</a>-->
-                  </div>
-                </li>
-
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Membership</a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="./membership.html">Benefits</a>
-                    <a class="dropdown-item" href="membership.html#mentorship">Mentorship</a>
-                    
-
-                  </div>
-
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">FAQs</a>
-                  <div class="dropdown-menu">
-                    <!--a class="dropdown-item" href="./contact.html">Contact</a>-->
-                    <a class="dropdown-item" href="./FAQs.html">FAQs</a>
-                </li>
-              </ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbardrop" data-toggle="dropdown">About</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="./about.html">About MISSA</a>
+              <a class="dropdown-item" href="./eboard.html">E-board</a>
+              <!-- <a class="dropdown-item" href="./alumni.html">Alumni</a>
+              <hr>
+              <a class="dropdown-item" href="./e-board-apps.html">E-board Applications</a> -->
             </div>
-          </nav>
+          </li>
 
-          <div class="top-content">
-
-
-          <div class="row justify-content-center">
-
-
-            <div class="col-12 col-lg-9 mx-auto text-center" style="width: 74rem;" >
-              <div class="card-body">
-                <h3 class="mb-5">MISSA's Data Analytics Team</h3>
-
-                  <p class="card-text my-4">The main goal of the MISSA Data Analytics team is to provide an environment for individuals interested in data analytics to collaborate, share resources, and work together.
-                    We plan to provide the opportunity for team members to work together and participate in competitions, hackathons, and research projects, as well as the opportunity to host workshops.
-                    Time commitment is up to you: will vary depending on available events, projects, & level of commitment. </p>
-
-                    <div class="container shadow">
-                      <div class="row ">
-                         <div class="col-lg-6 col-lg-6 order-lg-last ">
-                           
-                           <h3>Benefits</h3>
-                              <ul class="tech-mix-benefits list-group list-group-flush text-center">
-                                <li class="list-group-item list-group-item-action">Gain exposure and build connections</li>
-                                <li class="list-group-item list-group-item-action">Network with the many companies </li>
-                                <li class="list-group-item list-group-item-action">An opportunity for students to apply their skills</li>
-                                <li class="list-group-item list-group-item-action">Possibility of being offered internships and job opportunities </li>
-                              </ul>
-                        </div>
-                        
-                        <div class="col-lg-6 col-lg-6">
-                          <img src="../img/data-analytics/data analytics1.webp" class="img-fluid shadow-img " alt="Responsive image">
-                        </div>
-                     </div>
-                   </div>
-                  
-
-                  <p class="card-text my-3"><span class="highlight">case study</span>  to work on for <span class="highlight">three weeks</span> prior to the actual competition day. On the day of the competition, the teams will present the case and their solution to a panel of judges, where they will have their work judged and critiqued.</p>
-
-              </div>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Data Analytics</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="./da-team.html">Team Members</a>
+              <a class="dropdown-item" href="./da-applications.html">Applications</a>
+              <a class="dropdown-item" href="./da-projects.html">Projects</a>
             </div>
-
-            <div class="col-12 col-lg-9 mx-auto text-center" style="width: 74rem;" >
-              <div class="card-body" style="padding: 100px; margin: 100px; border-style: solid; border-color: rgb(206, 206, 206); border-radius: 10px;" >
-                <h3 class="pb-5">Interested in the DA Team? Please fill out the Google Forms below.</h3>
-                <button type="https://docs.google.com/forms/d/e/1FAIpQLSeMigdaPmQCp7Ihihqe7ewxG4Tnmb5iCo73CyOS5Gco3V5yoA/viewform">DA Team Applications</button>
-                <p style="font-size: 25px;" class="pt-5 highlight">Applications Close on August 29th at 11:59pm</p>
-                <br />
-              </div>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Events</a>
+            <div class="dropdown-menu">
+              <hr>
+              <a class="dropdown-item" href="./fall-tech-mixer.html">Fall Tech Mixer 2024</a>
+              <a class="dropdown-item" href="./CSAF.html">CSAF Information</a>
+              <a class="dropdown-item" href="./alumni-reunion.html">Alumni Reunion</a>
             </div>
+          </li>
 
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">ITC</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item " href="./itc-info.html">ITC Info</a>
+              <a class="dropdown-item" href="./itc-past.html">ITC Past</a>
+              <!--<a class="dropdown-item " href="./html/itc-testimonials.html">ITC Testimonials</a>-->
+            </div>
+          </li>
 
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Membership</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="./membership.html">Benefits</a>
+              <a class="dropdown-item" href="membership.html#mentorship">Mentorship</a>
+            </div>
+          </li>
 
-              <!-- <div class="row justify-content-center"> -->
-
-
-
-                <div class="col-12 col-lg-9 mt-5 text-center" style="width: 74rem;" >
-                  <h3 class="mx-5">For More Information</h3>
-    
-                  <div class="card-body">
-    
-    
-                      <p class="card-text">If you have any questions, please contact our Directors of DA.</p>
-    
-    
-    
-                  </div>
-    
-                  <div class="row">
-    
-                    <div class="col-lg-6 col-lg-6 ">
-                      <h2>Brandon Chang</h2>
-                      <a href="mailto:brandon.chang@calpolymissa.org"><button class="button btn-primary btn-md">Contact</button></a>
-    
-                    </div>
-                      <div class="col-lg-6 col-lg-6">
-                      <h2>Darien Lin</h2>
-                      <a href="mailto:darien.lin@calpolymissa.org"><button class="button btn-primary btn-md">Contact</button></a>
-                    </div>
-                  </div>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">FAQs</a>
+            <div class="dropdown-menu">
+              <!--a class="dropdown-item" href="./contact.html">Contact</a>-->
+              <a class="dropdown-item" href="./FAQs.html">FAQs</a>
+            </div>
+          </li> 
+        </ul>
+      </div>
+    </nav>
+    <!-- END NAVBAR -->
+    <div class="top-content">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-9 mx-auto text-center" style="width: 74rem;" >
+          <div class="card-body">
+            
+            <h3 class="mb-5">MISSA's Data Analytics Team</h3>
+            <p class="card-text my-4">
+              The main goal of the MISSA Data Analytics team is to provide an environment for individuals interested in data analytics to collaborate, share resources, and work together.
+              We plan to provide the opportunity for team members to work together and participate in competitions, hackathons, and research projects, as well as the opportunity to host workshops.
+              Time commitment is up to you: will vary depending on available events, projects, & level of commitment. </p>
+            <br>
+            <!-- BEGIN BENEFITS -->
+            <div class="container shadow">
+              <div class="row ">
+                <div class="col-lg-6 col-lg-6 order-lg-last ">            
+                    <h3>Benefits</h3>
+                      <ul class="tech-mix-benefits list-group list-group-flush text-center">
+                        <li class="list-group-item list-group-item-action">Gain exposure and build connections</li>
+                        <li class="list-group-item list-group-item-action">Network with the many companies </li>
+                        <li class="list-group-item list-group-item-action">An opportunity for students to apply their skills</li>
+                        <li class="list-group-item list-group-item-action">Possibility of being offered internships and job opportunities </li>
+                      </ul>
+                </div>     
+                <div class="col-lg-6 col-lg-6">
+                  <img src="../img/data-analytics/data analytics1.webp" class="img-fluid shadow-img " alt="Responsive image">
                 </div>
+              </div>
+            </div>
+            <!-- END BENEFITS -->
+          </div>
+        </div>
+
+        <!-- BEGIN SIGN-UP -->
+        <div class="col-12 col-lg-9 mx-auto text-center" style="width: 74rem;" >
+          <div class="card-body" style="padding: 100px; margin: 100px; border-style: solid; border-color: rgb(206, 206, 206); border-radius: 10px;" >
+            <h3 class="pb-5">Interested in the DA Team? Please fill out the Google Form below.</h3>
+            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeMigdaPmQCp7Ihihqe7ewxG4Tnmb5iCo73CyOS5Gco3V5yoA/viewform"><button class="button">DA Team Applications</button></a>
+            <p style="font-size: 25px;" class="pt-5 highlight">Applications Close on August 29th at 11:59pm.</p>
+          </div>
+        </div>
+        <!-- END SIGN-UP -->
+
+        <!-- <div class="row justify-content-center"> -->
+
+        <div class="col-12 col-lg-9 mt-5 text-center" style="width: 74rem;" >
+          <h3 class="mx-5">For More Information</h3>
+
+          <div class="card-body">
+              <p class="card-text">If you have any questions, please contact our Directors of DA.</p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6 col-lg-6">
+              <h2>Brandon Chang</h2>
+              <a href="mailto:brandon.chang@calpolymissa.org"><button class="button btn-primary btn-md">Contact</button></a>
+            </div>
+            <div class="col-lg-6 col-lg-6">
+              <h2>Darien Lin</h2>
+              <!--<a href="mailto:darien.lin@calpolymissa.org">--><button disabled class="button btn-primary btn-md">Contact</button>
+            </div>
+          </div>
+        </div>
 
 
 
@@ -217,64 +199,37 @@
             </div>
             </div> -->
             </div>
-          </br>
-
-
-
-            </div>
+            <br>
           </div>
-
-
-
-
-
         </div>
+      </div>
+    </div>
 
-
-
-
-
-
-
-</div>
-
-
-
-
-
-          <footer class="footer-nav text-center bg-light">
-            <section>
-
-              <div class="container">
-                <h3>Connect With Us</h3>
-                <ul class="nav contact justify-content-center">
-                    <li><a href="https://linktr.ee/cppmissa"><i class="fab fa-readme"></i>
-                    </a>
-                    </li>
-                    <li><a href="https://discord.gg/Y3fCxj8ASy"><i class="fab fa-discord"></i>
-                    </a>
-                    </li>
-                    <li><a href="https://www.linkedin.com/company/cppmissa"><i class="fab fa-linkedin-in	"></i>
-                    </a>
-                    </li>
-                    <li><a href="https://www.instagram.com/cppmissa/"><i class="fab fa-instagram"></i>
-                    </a>
-                    </li>
-                </ul>
-                
-                <p class="copyrights">&copy 2023 Management Information System Student Association</p>
-              </div>
-
-            </section>
-          </footer>
-
-
-
-
-
-
-
-</body>
- </html>
-
- <script src="../script.js"></script>
+    <!-- BEGIN FOOTER -->
+    <footer class="footer-nav text-center bg-light">
+      <section>
+        <div class="container">
+          <h3>Connect With Us</h3>
+          <ul class="nav contact justify-content-center">
+              <li>
+                <a href="https://linktr.ee/cppmissa"><i class="fab fa-readme"></i></a>
+              </li>
+              <li>
+                <a href="https://discord.gg/Y3fCxj8ASy"><i class="fab fa-discord"></i></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/cppmissa"><i class="fab fa-linkedin-in	"></i></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/cppmissa/"><i class="fab fa-instagram"></i></a>
+              </li>
+          </ul>
+          <p class="copyrights">&copy 2023 Management Information System Student Association</p>
+        </div>
+      </section>
+    </footer>
+    <!-- END FOOTER -->
+  </body>
+  <!-- END BODY -->
+</html>
+<script src="../script.js"></script>

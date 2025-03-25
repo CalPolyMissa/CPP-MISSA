@@ -620,7 +620,12 @@ h3,p{
   padding: 5px 10px;
   margin: 5px 0px;
   text-align: center;  
-  
+}
+
+.button:disabled {
+  color: #e0e0e0;
+  background-color: #DD9999;
+  border: 1px solid rgb(151, 151, 151);
 }
 
 .button:hover {
@@ -628,6 +633,12 @@ h3,p{
   color: var(--missa-pink);
   font-weight: 900;
   outline: none;
+}
+
+.button:disabled:hover {
+  background-color: #DD9999;
+  color: #e0e0e0;
+  font-weight: 500;  
 }
 
 /* Accordions */
