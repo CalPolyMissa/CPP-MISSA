@@ -1,3 +1,7 @@
+:root {
+  --missa-pink: #FF7070;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 21px;
@@ -15,7 +19,7 @@ p{
 
 #carouselExampleIndicators{
   border-width: thick;
-  border-color:  #FF7070;
+  border-color:  var(--missa-pink);
   border-style: solid;
 }
 
@@ -72,7 +76,7 @@ ul.navbar-nav a.nav-link{
 }
 
 .dropdown-menu a:hover{
-  color: #ff7070;
+  color: var(--missa-pink);
 }
 
 .dropdown-menu.show{
@@ -81,17 +85,17 @@ ul.navbar-nav a.nav-link{
 }
 
 .nav-item .nav-link.active{
-  color: #ff7070 !important;
+  color: var(--missa-pink) !important;
 
 }
 
 li.nav-item.active{
-  background-color: #ff7070 !important;
+  background-color: var(--missa-pink) !important;
 }
 
 .navbar .nav-item a:hover{
   background-color: transparent;
-  color: #ff7070 !important;
+  color: var(--missa-pink) !important;
 
 }
 
@@ -111,7 +115,7 @@ li.nav-item.active{
 /* Carousel */
 
 a.btn:hover{
-  background-color: #ff7070;
+  background-color: var(--missa-pink);
 }
 
 .btn.carousel-btn{
@@ -174,7 +178,7 @@ h3{
 h3::first-letter {
     font-size: 70px !important;
     font-weight: bold;
-    color: #ff7070;
+    color: var(--missa-pink);
   }
 
   h4{
@@ -184,7 +188,7 @@ h3::first-letter {
   h4::first-letter {
       font-size: 50px !important;
       font-weight: bold;
-      color: #ff7070;
+      color: var(--missa-pink);
     }
 
 
@@ -208,7 +212,7 @@ ul.tech-mix-benefits li{
 
 
 ul.contact li a .fab{
-    color: #ff7070;
+    color: var(--missa-pink);
     margin: 40px;
     font-size: 40px;
 }
@@ -240,7 +244,7 @@ p.copyrights{
   color: black;
   padding: 5px 70px;
   background-color: transparent;
-  border-color: #ff7070;
+  border-color: var(--missa-pink);
 
 
 }
@@ -279,7 +283,7 @@ p.copyrights{
 
 /* hello, contact sections */
 .h{
-  color: #ff7070;
+  color: var(--missa-pink);
 }
 
 /* INDEX PAGE */
@@ -345,14 +349,14 @@ ul.membership-benefits li{
 }
 
 .card-title{
-  color: #ff7070;
+  color: var(--missa-pink);
   font-size: 30px;
   font-weight: bolder;
 
 }
 
 .highlight, a{
-  color: #ff7070;
+  color: var(--missa-pink);
   font-weight: 900;
 }
 
@@ -395,7 +399,7 @@ ul.list-group a{
 }
 
 ul.list-group a:hover{
-  color: #ff7070 !important;
+  color: var(--missa-pink) !important;
 
 
 }
@@ -411,7 +415,7 @@ ul.list-group a:hover{
 
 .list-group-item-action:hover{
   color: white;
-  background-color: #ff7070;
+  background-color: var(--missa-pink);
   text-decoration: none !important;
 
 
@@ -605,8 +609,8 @@ h3,p{
 
 .button {
   font-size: 20px;
-  background-color: #ff7070;
-  border-color: #ff7070;
+  background-color: var(--missa-pink);
+  border-color: var(--missa-pink);
   border: none;
   border-radius: 10px;
   border: 1px solid rgb(151, 151, 151);
@@ -620,8 +624,8 @@ h3,p{
 }
 
 .button:hover {
-  background-color: rgb(255, 255, 255);
-  color: #ff7070;
+  background-color: white;
+  color: var(--missa-pink);
   font-weight: 900;
   outline: none;
 }
@@ -638,7 +642,7 @@ summary {
     font-weight: bold;
     margin: -.5em -.5em 0;
     padding: .5em;
-    color:#ff7070
+    color:var(--missa-pink)
 }
 
 details[open] {
@@ -841,7 +845,7 @@ iframe {
 
 .date strong {
   font-size: 60px;
-  color: #ff7070;
+  color: var(--missa-pink);
 }
 
 
@@ -865,7 +869,7 @@ a.btn-event{
 }
 
 .btn-event:hover {
-  color: #ffffff
+  color: white
 }
 
 
