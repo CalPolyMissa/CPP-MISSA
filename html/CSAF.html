@@ -1,214 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2CS8Y46RBG"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2CS8Y46RBG"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('config', 'G-2CS8Y46RBG');
+      gtag('config', 'G-2CS8Y46RBG');
 
-  gtag('event', 'screen_view', 
-   {
-    'screen_name': 'CSAF'
-    }
-  );
-</script>
-  <title>MISSA</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="../img/Missa+Logo.png">
+      gtag('event', 'screen_view', 
+      {
+        'screen_name': 'CSAF'
+        }
+      );
+    </script>
 
+    <title>MISSA</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../img/Missa+Logo.png">
 
-  <!-- Font Awesome CSS -->
-  <link href="../lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link href="../lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 
-  <!--Custom CSS -->
-  <link rel="stylesheet" href="../css/style.css" type="text/css">
-  <link rel="stylesheet" href="../css/calendar.css" type="text/css">
+    <!--Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link rel="stylesheet" href="../css/calendar.css" type="text/css">
 
- <script src="https://kit.fontawesome.com/66cf69f0b2.js" crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-</head>
-<body>
+    <script src="https://kit.fontawesome.com/66cf69f0b2.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </head>
+  <!-- END HEAD -->
+  <!-- BEGIN BODY -->
+  <body>
+    <!-- BEGIN NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light  scrolling-navbar">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../img/Missa+Logo.png" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
 
-
-        <nav class="navbar navbar-expand-lg bg-white navbar-light scrolling-navbar">
-            <a class="navbar-brand" href="../index.html">
-              <img src="../img/Missa+Logo.png" alt="logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="../index.html">Home</a>
-                </li>
-
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">About</a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="./about.html">About MISSA</a>
-                    <a class="dropdown-item" href="./eboard.html">E-board</a>
-                    <!-- a class="dropdown-item" href="./alumni.html">Alumni</a>
-                    <hr>
-                    <a class="dropdown-item" href="./e-board-apps.html">E-board Applications</a> -->
-                  </div>
-                </li>
-
-
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Data Analytics</a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="./da-team.html">Team Members</a>
-                    <a class="dropdown-item" href="./da-applications.html">Applications</a>
-                    <a class="dropdown-item" href="./da-projects.html">Projects</a>
-                  </div>
-                </li>
-
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Events</a>
-                  <div class="dropdown-menu">
-                    <hr>
-                    <a class="dropdown-item" href="./fall-tech-mixer.html">Fall Tech Mixer 2024</a>
-                    <a class="dropdown-item" href="./CSAF.html">CSAF Information</a>
-                    <a class="dropdown-item" href="./alumni-reunion.html">Alumni Reunion</a>
-                  </div>
-                </li>
-              
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">ITC</a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item " href="./itc-info.html">ITC Info</a>
-                    <a class="dropdown-item" href="./itc-past.html">ITC Past</a>
-                    <!--<a class="dropdown-item " href="./html/itc-testimonials.html">ITC Testimonials</a>-->
-                  </div>
-                </li>
-
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Membership</a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="./membership.html">Benefits</a>
-                    <a class="dropdown-item" href="membership.html#mentorship">Mentorship</a>
-                    
-                  </div>
-
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">FAQs</a>
-                  <div class="dropdown-menu">
-                    <!--a class="dropdown-item" href="./contact.html">Contact</a>-->
-                    <a class="dropdown-item" href="./FAQs.html">FAQs</a>
-                </li>
-              </ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbardrop" data-toggle="dropdown">About</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="./about.html">About MISSA</a>
+              <a class="dropdown-item" href="./eboard.html">E-board</a>
+              <!-- <a class="dropdown-item" href="./alumni.html">Alumni</a>
+              <hr>
+              <a class="dropdown-item" href="./e-board-apps.html">E-board Applications</a> -->
             </div>
-          </nav>
+          </li>
 
-
-
-          <div class="col-12 col-lg-9 col-md-9 mx-auto text-center" style="width: 74rem;" >
-            <div class="card-body">
-              <h3 class="mb-5">Cyber Security and Awareness Fair</h3>
-              <p id="timer" style="text-align:center;font-size:60px;margin-top:0px;color:#ff7070;font-style:italic"></p>
-
-              <p class="card-text my-4">The Cyber Security and Awareness Fair(CSAF) on <span class="highlight">October 17, 2024 from 11:00 a.m. - 4 p.m.</span>, is an annual event where different CPP clubs and students from other schools raise awareness about cybersecurity related topics and how to protect against cyber attacks
-                </p>
-                <p class="card-text my-3">For this year's CSAF event, Chief Information Officer, Abhishek Sarepaka, will be presenting his project.<!--<span class="highlight">--></span>. This project is in progress <span class="highlight">at the moment.</span>
-                If you are interesting in attending or sponsoring this event, please find more information in the links below.  Everyone is welcome, we hope to see you at the event.</p>
-
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Data Analytics</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="./da-team.html">Team Members</a>
+              <a class="dropdown-item" href="./da-applications.html">Applications</a>
+              <a class="dropdown-item" href="./da-projects.html">Projects</a>
             </div>
-          </div>
-
-          <div class="row text-center mb-5">
-            <div class="col">
-              <a href="..." target="https://docs.google.com/document/d/1b1yjTB4VdkpntoYSnOkPDI6N_Em8N-EggYZ4kCMg6Iw/edit?usp=sharing" class="btn btn-primary">CSAF 2024 Presentation</a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Events</a>
+            <div class="dropdown-menu">
+              <hr>
+              <a class="dropdown-item" href="./fall-tech-mixer.html">Fall Tech Mixer 2024</a>
+              <a class="dropdown-item" href="./CSAF.html">CSAF Information</a>
+              <a class="dropdown-item" href="./alumni-reunion.html">Alumni Reunion</a>
             </div>
-          </div>
+          </li>
 
-          <div class="container">
-            <h3>Follow and Information</h3>
-            <ul class="nav contact justify-content-center">
-                <li><a href="https://www.cpp.edu/cyberfair/index.shtml"><i class="fab fa-website"></i>
-                </a>
-                </li>
-                <li><a href="https://www.instagram.com/cppcyberfair/?hl=en"><i class="fab fa-instagram"></i>
-                </a>
-                </li>
-            </ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">ITC</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item " href="./itc-info.html">ITC Info</a>
+              <a class="dropdown-item" href="./itc-past.html">ITC Past</a>
+              <!--<a class="dropdown-item " href="./html/itc-testimonials.html">ITC Testimonials</a>-->
+            </div>
+          </li>
 
-          <footer class="footer-nav text-center bg-light">
-            <section>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Membership</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="./membership.html">Benefits</a>
+              <a class="dropdown-item" href="membership.html#mentorship">Mentorship</a>
+            </div>
+          </li>
 
-              <div class="container">
-                <h3>Connect With Us</h3>
-                <ul class="nav contact justify-content-center">
-                    <li><a href="https://linktr.ee/cppmissa"><i class="fab fa-readme"></i>
-                    </a>
-                    </li>
-                    <li><a href="https://discord.gg/Y3fCxj8ASy"><i class="fab fa-discord"></i>
-                    </a>
-                    </li>
-                    <li><a href="https://www.linkedin.com/company/cppmissa"><i class="fab fa-linkedin-in	"></i>
-                    </a>
-                    </li>
-                    <li><a href="https://www.instagram.com/cppmissa/"><i class="fab fa-instagram"></i>
-                    </a>
-                    </li>
-                </ul>
-                
-                <p class="copyrights">&copy 2024 Management Information System Student Association</p>
-              </div>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">FAQs</a>
+            <div class="dropdown-menu">
+              <!--a class="dropdown-item" href="./contact.html">Contact</a>-->
+              <a class="dropdown-item" href="./FAQs.html">FAQs</a>
+            </div>
+          </li> 
+        </ul>
+      </div>
+    </nav>
+    <!-- END NAVBAR -->
+    <!-- BEGIN DESCRIPTION -->
+    <div class="col-12 col-lg-9 col-md-9 mx-auto text-center" style="width: 74rem;" >
+      <div class="card-body">
+        <h3 class="mb-5">Cyber Security and Awareness Fair</h3>
+        <p id="timer" style="text-align:center;font-size:60px;margin-top:0px;color:#ff7070;font-style:italic"></p>
+        <p class="card-text my-4">The Cyber Security and Awareness Fair(CSAF) on <span class="highlight">October 17, 2024 from 11:00 am - 4 pm</span>, is an annual event where CPP clubs come together to raise awareness about cybersecurity related topics and how to protect against cyber attacks</p>
+        <p class="card-text my-3">For this year's CSAF event our Director of Events, Kaitlin Yen, will be presenting her project on social engineering.<!--<span class="highlight">--></span> This project has been completed, and can be viewed below.
+          If you are interesting in attending or sponsoring this event, please find more information in the links below.  Everyone is welcome, we hope to see you at the event!</p>
+      </div>
+    </div>
+    <div class="row text-center mb-5">
+      <div class="col">
+        <a target="_blank" href="https://www.canva.com/design/DAGRVDRbYfU/IOFcY792MU8Va9vucQRYwA/edit?utm_content=DAGRVDRbYfU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="btn btn-primary">CSAF 2024 Presentation</a>
+      </div>
+    </div>
+    <!-- END DESCRIPTION -->
+    <!-- BEGIN CSAF SOCIALS -->
+    <div class="container">
+      <h3>For More Information</h3>
+      <p>Check out the official CSAF website and Instagram page!</p>
+      <ul class="nav contact justify-content-center">
+          <li>
+            <a target="_blank" href="https://www.cpp.edu/cyberfair/index.shtml"><i class="fas fa-globe"></i></a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.instagram.com/cppcyberfair/?hl=en"><i class="fab fa-instagram"></i></a>
+          </li>
+      </ul>
+    </div>
+    <!-- END CSAF SOCIALS -->
+    <!-- BEGIN FOOTER -->
+    <footer class="footer-nav text-center bg-light">
+      <section>
+        <div class="container">
+          <h3>Connect With Us</h3>
+          <ul class="nav contact justify-content-center">
+              <li>
+                <a href="https://linktr.ee/cppmissa"><i class="fab fa-readme"></i></a>
+              </li>
+              <li>
+                <a href="https://discord.gg/Y3fCxj8ASy"><i class="fab fa-discord"></i></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/cppmissa"><i class="fab fa-linkedin-in	"></i></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/cppmissa/"><i class="fab fa-instagram"></i></a>
+              </li>
+          </ul>
+          <p class="copyrights">&copy 2023 Management Information System Student Association</p>
+        </div>
+      </section>
+    </footer>
+    <!-- END FOOTER -->
+    <script src="../script.js"></script>
 
-            </section>
-          </footer>
-          <script src="../script.js"></script>
 
+    <script>
+      // Set the date
+      var countDownDate = new Date("Oct 11, 2024 20:00:00").getTime();
 
-          <script>
-          // Set the date
-          var countDownDate = new Date("Oct 31, 2024 11:00:00").getTime();
+      var x = setInterval(function() {
 
+        var now = new Date().getTime();
+        var distance = countDownDate - now;
 
-          var x = setInterval(function() {
+        // Calculations
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
+        // Output to id="timer"
+        document.getElementById("timer").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
 
-            var now = new Date().getTime();
-
-
-            var distance = countDownDate - now;
-
-            // Calculations
-            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-            // Output to id="timer"
-            document.getElementById("timer").innerHTML = days + "d " + hours + "h "
-            + minutes + "m " + seconds + "s ";
-
-            // When countdown is over
-            if (distance < 0) {
-              clearInterval(x);
-              document.getElementById("timer").innerHTML = "The event is done.";
-            }
-          }, 1000);
-          </script>
-
-
-
-
-
-</body>
- </html>
+        // When countdown is over
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("timer").innerHTML = "This year's event has concluded, see you next year!";
+        }
+      }, 1000);
+    </script>   
+  </body>
+  <!-- END BODY -->
+</html>

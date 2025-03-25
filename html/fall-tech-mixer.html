@@ -1,365 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2CS8Y46RBG"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-2CS8Y46RBG');
+  <!-- BEGIN HEAD -->
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2CS8Y46RBG"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-2CS8Y46RBG');
 
-  gtag('event', 'screen_view', 
-   {
-    'screen_name': 'Fall-Tech-Mixer'
-    }
-  );
-</script>
-  <title>MISSA</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="../img/Missa+Logo.png">
+      gtag('event', 'screen_view', 
+      {
+        'screen_name': 'Fall-Tech-Mixer'
+        }
+      );
+    </script>
 
+    <title>MISSA</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../img/Missa+Logo.png">
 
-  <!-- Font Awesome CSS -->
-  <link href="../lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link href="../lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
-  
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 
-  <!--Custom CSS -->
-  <link rel="stylesheet" href="../css/style.css" type="text/css">
-  <link rel="stylesheet" href="../css/calendar.css" type="text/css">
+    <!--Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link rel="stylesheet" href="../css/calendar.css" type="text/css">
 
- <script src="https://kit.fontawesome.com/66cf69f0b2.js" crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-</head>
-<body>
+    <script src="https://kit.fontawesome.com/66cf69f0b2.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </head>
+  <!-- END HEAD -->
+  <!-- BEGIN BODY -->
+  <body>
+    <!-- BEGIN NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light  scrolling-navbar">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../img/Missa+Logo.png" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
 
-  
-        <nav class="navbar navbar-expand-lg bg-white navbar-light scrolling-navbar">
-            <a class="navbar-brand" href="../index.html">
-              <img src="../img/Missa+Logo.png" alt="logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="../index.html">Home</a>
-                </li>
-
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">About</a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="./about.html">About MISSA</a>
-                    <a class="dropdown-item" href="./eboard.html">E-board</a>
-                    <!-- <a class="dropdown-item" href="./alumni.html">Alumni</a>    
-                    <hr>
-                    <a class="dropdown-item" href="./e-board-apps.html">E-board Applications</a> -->              
-                  </div>             
-                </li>
-
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Data Analytics</a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="./da-team.html">Team Members</a>
-                    <a class="dropdown-item" href="./da-applications.html">Applications</a>
-                    <a class="dropdown-item" href="./da-projects.html">Projects</a>
-                  </div>
-                </li>
-
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Events</a>
-                  <div class="dropdown-menu">
-                    <hr>
-                    <a class="dropdown-item" href="./fall-tech-mixer.html">Fall Tech Mixer 2024</a>
-                    <a class="dropdown-item" href="./CSAF.html">CSAF Information</a>
-                    <a class="dropdown-item" href="./alumni-reunion.html">Alumni Reunion</a>
-                  </div>
-                </li>
-
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">ITC</a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item " href="./itc-info.html">ITC Info</a>
-                    <a class="dropdown-item" href="./itc-past.html">ITC Past</a>
-                    <!--<a class="dropdown-item " href="./html/itc-testimonials.html">ITC Testimonials</a>-->
-                  </div>
-                </li>
-
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Membership</a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="./membership.html">Benefits</a>
-                    <a class="dropdown-item" href="membership.html#mentorship">Mentorship</a>
-                    
-                  
-                  </div>
-                
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">FAQs</a>
-                  <div class="dropdown-menu">
-                    <!--a class="dropdown-item" href="./contact.html">Contact</a>-->
-                    <a class="dropdown-item" href="./FAQs.html">FAQs</a>
-                </li>  
-              </ul>
-            </div>  
-          </nav>
-
-
-
-          <div class="col-12 col-lg-9 col-md-9 mx-auto text-center" style="width: 74rem;" >
-            <div class="card-body">
-              <h3 class="mb-5">Fall Professional Tech Mixer</h3>
-              <p id="timer" style="text-align:center;font-size:60px;margin-top:0px;color:#ff7070;font-style:italic"></p>
-<!-- Desceription -->
-                <p class="card-text my-3">Trying to find a career that’s right for you? At Cal Poly Pomona, MISSA would like to invite you to our Fall 2024 Professional Tech Mixer! 
-                  Regardless of where you stand professionally or academically, our mixer has an opportunity for you!</p>
-
-                  <p class="card-text my-4">MISSA will be hosting The Fall Professional Tech Mixer on <span class="highlight">October 11, 2024, 5 - 8 pm.</span>Fall Tech Mixer is an event where students can build their network and 
-                    find opportunities to explore careers within their field. Attend <a href="">in-person</a> to network with industry professionals!</p>
-
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbardrop" data-toggle="dropdown">About</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="./about.html">About MISSA</a>
+              <a class="dropdown-item" href="./eboard.html">E-board</a>
+              <!-- <a class="dropdown-item" href="./alumni.html">Alumni</a>
+              <hr>
+              <a class="dropdown-item" href="./e-board-apps.html">E-board Applications</a> -->
             </div>
-          </div>
+          </li>
 
-          <div class="container shadow">
-            <div class="row ">
-               <div class="col-lg-6 col-lg-6 order-lg-last ">
-                 
-                 <h3>Benefits</h3>
-                    <ul class="tech-mix-benefits list-group list-group-flush text-center">
-                      <li class="list-group-item list-group-item-action">Gain exposure and build connections</li>
-                      <li class="list-group-item list-group-item-action">Network with the many companies participating </li>
-                      <li class="list-group-item list-group-item-action">An opportunity for students to learn about the companies</li>
-                      <li class="list-group-item list-group-item-action">Possibility of being offered internships and job opportunities </li>
-                    </ul>
-              </div>
-              
-              <div class="col-lg-6 col-lg-6 ">
-                 <img src="../img/techMixer/TechMixer2.jpg" class="img-fluid shadow-img" alt="Responsive image">     
-               </div>
-           </div>
-         </div>
-
-
-          <div class="col-12 col-lg-6 col-md-9 mx-auto text-center" style="width: 74rem;" >
-         
-           <!--- <h3 class="mb-5 mt-3">Past Companies that attended</h3>-->
-            <h3 class="mb-5 mt-3">Companies that are attending</h3>
-
-        
-          </div>
-
-
-          <div class="row justify-content-center">
-
-            
-
-            <div class="col-lg-8 col-lx-8">
-                <ul class="d-flex flex-wrap justify-content-center list-unstyled">
-                    <li class="mx-1 mb-3">
-                      <img class="image-sm" src="..\img\techMixer\attendees\activision.png" alt="activision logo">
-                    </li>
-              
-                    <li class="mx-1 mb-3">
-                        <img class="image-sm" src="..\img\techMixer\attendees\ai-simplified.png" alt="ai-simplified logo">
-                    </li>
-                    <li class="mx-3 mb-3">
-                        <img class="image-sm" src="..\img\techMixer\attendees\google.png" alt="google logo">
-                    </li>
-                    <li class="mx-1 mb-3">
-                        <img class="image-sm" src="..\img\techMixer\attendees\hilgers-graben.png" alt="hilgers-graben logo">
-                    </li>
-                    <li class="mx-1 mb-3">
-                        <img class="image-sm" src="..\img\techMixer\attendees\service-now.png" alt="service-now logo">
-                    </li>
-                  
-                
-                    <!-- <li class="mx-3 mb-5">
-                        <img class="image-fluid image-sm" src="" alt="">`
-                    </li>
-                    <li class="mx-3 mb-5">
-                        <img class="image-fluid image-sm" src="" alt="">
-                    </li>
-                    <li class="mx-3 mb-5">
-                        <img class="image-fluid image-sm" src="" alt="">
-                    </li>
-                    <li class="mx-3 mb-5 mb-md-0">
-                        <img class="image-fluid image-sm" src="" alt="">
-                    </li>
-                    <li class="mx-3 mb-5 mb-md-0">
-                        <img class="image-fluid image-sm" src="" alt="">
-                    </li>
-                    <li class="mx-3 mb-5 mb-md-0">
-                        <img class="image-fluid image-sm" src=" alt="">
-                    </li> -->
-                </ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Data Analytics</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="./da-team.html">Team Members</a>
+              <a class="dropdown-item" href="./da-applications.html">Applications</a>
+              <a class="dropdown-item" href="./da-projects.html">Projects</a>
             </div>
-          </div>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Events</a>
+            <div class="dropdown-menu">
+              <hr>
+              <a class="dropdown-item" href="./fall-tech-mixer.html">Fall Tech Mixer 2024</a>
+              <a class="dropdown-item" href="./CSAF.html">CSAF Information</a>
+              <a class="dropdown-item" href="./alumni-reunion.html">Alumni Reunion</a>
+            </div>
+          </li>
 
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">ITC</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item " href="./itc-info.html">ITC Info</a>
+              <a class="dropdown-item" href="./itc-past.html">ITC Past</a>
+              <!--<a class="dropdown-item " href="./html/itc-testimonials.html">ITC Testimonials</a>-->
+            </div>
+          </li>
 
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Membership</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="./membership.html">Benefits</a>
+              <a class="dropdown-item" href="membership.html#mentorship">Mentorship</a>
+            </div>
+          </li>
 
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">FAQs</a>
+            <div class="dropdown-menu">
+              <!--a class="dropdown-item" href="./contact.html">Contact</a>-->
+              <a class="dropdown-item" href="./FAQs.html">FAQs</a>
+            </div>
+          </li> 
+        </ul>
+      </div>
+    </nav>
+    <!-- END NAVBAR -->
+    <!-- BEGIN DESCRIPTION -->
+    <div class="col-12 col-lg-9 col-md-9 mx-auto text-center" style="width: 74rem;" >
+      <div class="card-body">
+        <h3 class="mb-5">Fall Professional Tech Mixer</h3>
+        <p id="timer" style="text-align:center;font-size:60px;margin-top:0px;color:#ff7070;font-style:italic"></p>
+        <!-- Description -->
+        <p class="card-text my-3">Trying to find a career that’s right for you? At Cal Poly Pomona, MISSA would like to invite you to our Fall 2024 Professional Tech Mixer! 
+          Regardless of where you stand professionally or academically, our mixer has an opportunity for you!</p>
+        <p class="card-text my-4">MISSA will be hosting The Fall Professional Tech Mixer on <span class="highlight">October 11, 2024, 5 - 8 pm.</span> Fall Tech Mixer is an event where students can build their network and 
+          find opportunities to explore careers within their field. Attend <a href="">in-person</a> to network with industry professionals!</p>
+      </div>
+    </div>
+    <!-- END DESCRIPTION -->
+    <!-- BEGIN BENEFITS -->
+    <div class="container shadow">
+      <div class="row ">
+        <div class="col-lg-6 col-lg-6 order-lg-last ">
+          <h3>Benefits</h3>
+          <ul class="tech-mix-benefits list-group list-group-flush text-center">
+            <li class="list-group-item list-group-item-action">Gain exposure and build connections</li>
+            <li class="list-group-item list-group-item-action">Network with the many companies participating </li>
+            <li class="list-group-item list-group-item-action">An opportunity for students to learn about the companies</li>
+            <li class="list-group-item list-group-item-action">Possibility of being offered internships and job opportunities </li>
+          </ul>
+        </div>
+        <div class="col-lg-6 col-lg-6 ">
+          <img src="../img/techMixer/TechMixer2.jpg" class="img-fluid shadow-img" alt="Responsive image">     
+        </div>
+      </div>
+    </div>
+    <!-- END BENEFITS -->
+    <!-- BEGIN ATTENDEES -->
+    <div class="col-12 col-lg-6 col-md-9 mx-auto text-center" style="width: 74rem;" >
+      <!--- <h3 class="mb-5 mt-3">Past Companies that attended</h3> -->
+      <h3 class="mb-5 mt-3">Companies that are attending</h3>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-8 col-lx-8">
+        <ul class="d-flex flex-wrap justify-content-center list-unstyled">
+          <li class="mx-1 mb-3">
+            <img class="image-sm" src="..\img\techMixer\attendees\activision.png" alt="activision logo">
+          </li>
+          <li class="mx-1 mb-3">
+              <img class="image-sm" src="..\img\techMixer\attendees\ai-simplified.png" alt="ai-simplified logo">
+          </li>
+          <li class="mx-3 mb-3">
+              <img class="image-sm" src="..\img\techMixer\attendees\google.png" alt="google logo">
+          </li>
+          <li class="mx-1 mb-3">
+              <img class="image-sm" src="..\img\techMixer\attendees\hilgers-graben.png" alt="hilgers-graben logo">
+          </li>
+          <li class="mx-1 mb-3">
+              <img class="image-sm" src="..\img\techMixer\attendees\service-now.png" alt="service-now logo">
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- END ATTENDEES -->
+    <br>
+    <!--<div class="col-12 col-lg-6 col-md-9 mx-auto text-center" style="width: 74rem;" >
+      <h3 class="mb-5">Companies we hosted in the past</h3>
+    </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-lx-8">
+          <ul class="d-flex flex-wrap justify-content-center list-unstyled">
+            <li class="mx-3 mb-5">
+              <img class="image-sm" src="../img/techMixer/kaiser-permanente.png" alt="kaiser-permanente logo">
+            </li>
+            <li class="mx-3 mb-5">
+              <img class=" image-sm" src="../img/techMixer/disney.png" alt="Disney logo">
+            </li>
+            <li class="mx-3 mb-5">
+              <img class="image-sm" src="../img/techMixer/SOCAL-GAS.jpg" alt="SOCAL-GAS logo">
+            </li>
+            <li class="mx-3 mb-5">
+              <img class="image-sm" src="../img/techMixer/ISACA.jpg" alt="ISACA logo">
+            </li>
+            <li class="mx-3 mb-5">
+              <img class="image-sm" src="../img/techMixer/grant-thornton.png" alt="grant-thornton logo">
+            </li>
+            <li class="mx-3 mb-5">
+              <img class="image-sm" src="../img/techMixer/avanade.jpg" alt="avanade logo">
+            </li>
+            <li class="mx-3 mb-5">
+              <img class="image-fluid image-sm" src="" alt="">
+            </li>
+            <li class="mx-3 mb-5">
+              <img class="image-fluid image-sm" src="" alt="">
+            </li>
+            <li class="mx-3 mb-5">
+              <img class="image-fluid image-sm" src="" alt="">
+            </li>
+            <li class="mx-3 mb-5 mb-md-0">
+              <img class="image-fluid image-sm" src="" alt="">
+            </li>
+            <li class="mx-3 mb-5 mb-md-0">
+              <img class="image-fluid image-sm" src="" alt="">
+            </li>
+            <li class="mx-3 mb-5 mb-md-0">
+              <img class="image-fluid image-sm" src=" alt="">
+            </li> 
+          </ul>
+        </div>
+      </div>-->
+      <div class="col-12 col-lg-6 col-md-9 mx-auto text-center" style="width: 74rem;" >
+        <h3 class="">For More Information</h3>
+        <div class="card-body">
+          <!--<img src="./sign-up form.png" alt="QR-code-Tech-Mixer">-->
+          <!--<a href="https://forms.gle/PmEA8unmhXvLpVgf8">Sign up now!</a>-->        
+          <p>If you have questions or if your company would like to participate, please contact our Director of Events.</p>
           <br>
-
-           <!--
-          <div class="col-12 col-lg-6 col-md-9 mx-auto text-center" style="width: 74rem;" >
-         
-              <h3 class="mb-5">Companies we hosted in the past</h3>
-          
-            </div>
-
-           
-            <div class="row justify-content-center">
-              <div class="col-lg-8 col-lx-8">
-                  <ul class="d-flex flex-wrap justify-content-center list-unstyled">
-                      <li class="mx-3 mb-5">
-                          <img class="image-sm" src="../img/techMixer/kaiser-permanente.png" alt="kaiser-permanente logo">
-                      </li>
-                      <li class="mx-3 mb-5">
-                          <img class=" image-sm" src="../img/techMixer/disney.png" alt="Disney logo">
-                      </li>
-                      <li class="mx-3 mb-5">
-                          <img class="image-sm" src="../img/techMixer/SOCAL-GAS.jpg" alt="SOCAL-GAS logo">
-                      </li>
-                      <li class="mx-3 mb-5">
-                          <img class="image-sm" src="../img/techMixer/ISACA.jpg" alt="ISACA logo">
-                      </li>
-                      <li class="mx-3 mb-5">
-                          <img class="image-sm" src="../img/techMixer/grant-thornton.png" alt="grant-thornton logo">
-                      </li>
-                      <li class="mx-3 mb-5">
-                          <img class="image-sm" src="../img/techMixer/avanade.jpg" alt="avanade logo">
-                      </li>
-                     <li class="mx-3 mb-5">
-                          <img class="image-fluid image-sm" src="" alt="">
-                      </li>
-                      <li class="mx-3 mb-5">
-                          <img class="image-fluid image-sm" src="" alt="">
-                      </li>
-                      <li class="mx-3 mb-5">
-                          <img class="image-fluid image-sm" src="" alt="">
-                      </li>
-                      <li class="mx-3 mb-5 mb-md-0">
-                          <img class="image-fluid image-sm" src="" alt="">
-                      </li>
-                      <li class="mx-3 mb-5 mb-md-0">
-                          <img class="image-fluid image-sm" src="" alt="">
-                      </li>
-                      <li class="mx-3 mb-5 mb-md-0">
-                          <img class="image-fluid image-sm" src=" alt="">
-                      </li> 
-                  </ul>
-              </div>
-            </div>-->
+          <h2>Kaitlin Yen</h2>
+          <a href="mailto:kaitlin.yen@calpolymissa.org"><button class="button">Contact</button></a>
+        </div>
+      </div>
+      <br>
+    <!-- BEGIN FOOTER -->
+    <footer class="footer-nav text-center bg-light">
+      <section>
+        <div class="container">
+          <h3>Connect With Us</h3>
+          <ul class="nav contact justify-content-center">
+              <li>
+                <a href="https://linktr.ee/cppmissa"><i class="fab fa-readme"></i></a>
+              </li>
+              <li>
+                <a href="https://discord.gg/Y3fCxj8ASy"><i class="fab fa-discord"></i></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/cppmissa"><i class="fab fa-linkedin-in	"></i></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/cppmissa/"><i class="fab fa-instagram"></i></a>
+              </li>
+          </ul>
+          <p class="copyrights">&copy 2023 Management Information System Student Association</p>
+        </div>
+      </section>
+    </footer>
+    <!-- END FOOTER -->
+    <script src="../script.js"></script>
 
 
-      
+    <script>
+      // Set the date
+      var countDownDate = new Date("Oct 11, 2024 20:00:00").getTime();
 
-                
-            </div>
+      var x = setInterval(function() {
 
+        var now = new Date().getTime();
+        var distance = countDownDate - now;
 
-            <div class="col-12 col-lg-6 col-md-9 mx-auto text-center" style="width: 74rem;" >
-              
-         
-              <h3 class="mb-5">For More Information</h3>
+        // Calculations
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-              <div class="card-body">
-                <img src="./sign-up form.png" alt="QR-code-Tech-Mixer">
-                <br>
-                <a href="https://forms.gle/PmEA8unmhXvLpVgf8">Sign up now!</a>
-                <br>
-                        
-                <p>If you have questions or if your company would like to participate, please contact our Director of Events.</p>
-                <br>
-                <h2>Kaitlin Yen</h2>
-                  <a href="mailto:kaitlin.yen@calpolymissa.org">kaitlin.yen@calpolymissa.org</a>
-              </div>
-            </div>
-         
-            </div>
-         
-          </div>
+        // Output to id="timer"
+        document.getElementById("timer").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
 
-
-
-        <br>
-    
-
-
-    
-          <footer class="footer-nav text-center bg-light">
-            <section>
-                
-              <div class="container">
-                <h3>Connect With Us</h3>
-                <ul class="nav contact justify-content-center">
-                    <li><a href="https://linktr.ee/cppmissa"><i class="fab fa-readme"></i>
-                    </a>
-                    </li>
-                    <li><a href="https://discord.gg/Y3fCxj8ASy"><i class="fab fa-discord"></i>
-                    </a>
-                    </li>
-                    <li><a href="https://www.linkedin.com/company/cppmissa"><i class="fab fa-linkedin-in	"></i>
-                    </a>
-                    </li>
-                    <li><a href="https://www.instagram.com/cppmissa/"><i class="fab fa-instagram"></i>
-                    </a>
-                    </li>
-                </ul>
-                
-                <p class="copyrights">&copy 2023 Management Information System Student Association</p>
-              </div>
-             
-            </section>
-          </footer>
-          <script src="../script.js"></script>
-
-
-          <script>
-          // Set the date
-          var countDownDate = new Date("Oct 11, 2024 20:00:00").getTime();
-
-
-          var x = setInterval(function() {
-
-
-            var now = new Date().getTime();
-
-
-            var distance = countDownDate - now;
-
-            // Calculations
-            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-            // Output to id="timer"
-            document.getElementById("timer").innerHTML = days + "d " + hours + "h "
-            + minutes + "m " + seconds + "s ";
-
-            // When countdown is over
-            if (distance < 0) {
-              clearInterval(x);
-              document.getElementById("timer").innerHTML = "The event is done.";
-            }
-          }, 1000);
-          </script>
-          
-          
-          
-          
-          
-          
-          
-</body>
- </html>
+        // When countdown is over
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("timer").innerHTML = "This year's event has concluded, see you next year!";
+        }
+      }, 1000);
+    </script>   
+  </body>
+  <!-- END BODY -->
+</html>
