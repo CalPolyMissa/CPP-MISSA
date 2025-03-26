@@ -713,7 +713,7 @@ details[open] summary {
       # Mobile, iPads, Small screen Laptops:  200px to 767px                                 
 =================================================== */
 @media (min-width: 200px) and (max-width: 767.98px) {
-  .shadow-img, .single-img, .sponsors {
+  .shadow-img, .single-img{
     display: none !important;
   }
 
