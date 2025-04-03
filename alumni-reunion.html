@@ -14,81 +14,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alumni Reunion</title>
     <link rel="stylesheet" href="styles/main.css" />
+    <!-- COMPONENTS -->
+    <script src="components/navbar-header.js" type="text/javascript" defer></script>
   </head>
   <body>
-    <!-- Navigation Container -->
-    <div class="container">
-      <!-- NAVBAR -->
-      <nav
-        class="navbar is-fixed-top"
-        role="navigation"
-        aria-label="main navigation"
-      >
-        <!-- MISSA Logo -->
-        <div class="navbar-brand">
-          <a class="navbar-item" href=".\index.html">
-            <img src="images\New_MISSA_Logo.png" alt="MISSA NavBar Logo" />
-          </a>
-
-          <!-- Start of NAVBAR Burger -->
-          <a
-            role="button"
-            class="navbar-burger"
-            aria-label="menu"
-            aria-expanded="false"
-            data-target="navbarBasicExample"
-          >
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a>
-        </div>
-
-        <!-- Home Button -->
-        <div id="navbarBasicExample" class="navbar-menu">
-          <div class="navbar-start">
-            <a class="navbar-item" href="./index.html"> Home </a>
-
-            <!-- About Us Button -->
-            <a class="navbar-item" href="./about-MISSA.html"> About Us </a>
-
-            <!-- DA Team Button -->
-            <a class="navbar-item" href="./DA-team.html">Data Analytics Team</a>
-
-            <!-- Resources Button -->
-            <!-- Give links to career center, cpp resources, missa recordings, contact information -->
-            <a class="navbar-item" href="./resources.html"> Resources </a>
-
-            <!-- Frequently Asked Questions Button -->
-            <a class="navbar-item" href="./FAQ.html"> FAQ </a>
-
-            <!-- Events Dropdown -->
-            <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link"> Events </a>
-
-              <div class="navbar-dropdown">
-                <a class="navbar-item" href="./tech-mixer.html"> Tech Mixer </a>
-                <a class="navbar-item" href="./ITC.html"> ITC </a>
-                <a class="navbar-item" href="./alumni-reunion.html"> Alumni Reunion </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Sign Up/ Get Involved Button -->
-          <!-- Membership Page -->
-          <div class="navbar-end">
-            <div class="navbar-item">
-              <div class="buttons">
-                <a class="button is-link">
-                  <strong>Get Involved</strong>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </div>
+    <!-- NAVBAR HEADER -->
+    <navbar-header></navbar-header>
 
     <!-- TITLE CONTAINER -->
     <section class="hero is-medium is-primary">
