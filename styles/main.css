@@ -32,6 +32,17 @@ section {
   margin: 0;
 }
 
+/* Prevent stretched out images */
+img {
+  object-fit: cover;
+}
+
+/* Linear gradient from MISSA Pink to Background.jpg */
+.background-fade {
+  background: linear-gradient(to right, hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l)) 0%, hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l)) 40%, hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l), 0%)) center no-repeat, url("/images/Background.JPG") center no-repeat;
+  background-size: cover;
+}
+
 #center-in-div figure {
   display: inline-table;
   padding-block-start: 50%;
