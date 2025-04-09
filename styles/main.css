@@ -36,6 +36,9 @@ section {
 img {
   object-fit: cover;
 }
+.no-cover {
+  object-fit: contain;
+}
 
 /* Linear gradient from MISSA Pink to Background.jpg */
 .background-fade {
