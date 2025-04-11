@@ -36,8 +36,14 @@ section {
 img {
   object-fit: cover;
 }
+/* Undo cover on necessary images */
 .no-cover {
   object-fit: contain;
+}
+/* Auto top/bottom margins */
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 /* Linear gradient from MISSA Pink to Background.jpg */
