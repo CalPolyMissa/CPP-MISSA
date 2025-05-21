@@ -1,4 +1,5 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
 
 :root {
   --bulma-primary-h: 2deg;
@@ -21,6 +22,34 @@
   --bulma-danger-l: 57%;
 }
 
+.rounded {
+  margin-top: 6px;
+  border-radius: 30px;
+}
+
+.mt--6 {
+  margin-top: -6rem;
+}
+
+.pr-5-5 {
+  padding-right: 1.9rem;
+}
+
+.is-cormorant {
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.w-fit {
+  width: fit-content;
+}
+
+.is-serif {
+  font-family:'Times New Roman', Times, serif
+}
+
 nav {
   padding-left: 10%;
   padding-right: 10%;
@@ -40,15 +69,10 @@ img {
 .no-cover {
   object-fit: contain;
 }
-/* Auto top/bottom margins */
-.my-auto {
-  margin-top: auto;
-  margin-bottom: auto;
-}
 
 /* Linear gradient from MISSA Pink to Background.jpg */
 .background-fade {
-  background: linear-gradient(to right, hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l)) 0%, hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l)) 40%, hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l), 0%)) center no-repeat, url("/images/Background.JPG") center no-repeat;
+  background: linear-gradient(to right, hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l)) 0%, hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l)) 40%, hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l), 0%)) center no-repeat, url("/images/Background.jpg") center no-repeat;
   background-size: cover;
 }
 
