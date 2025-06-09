@@ -21,10 +21,21 @@
   --bulma-danger-s: 62%;
   --bulma-danger-l: 57%;
 }
-
+/* WCAG Accessibility Changes */
+/* Link Underline*/
+a {
+  text-decoration-line: underline;
+}
+.navbar-item, .navbar-link {
+  text-decoration-line: none;
+}
+.button {
+  text-decoration-line: none;
+}
+/* Tab focus border */
 a:focus, button:focus {
   border: solid 2px black;
-  outline: solid 2px white
+  outline: solid 2px white;
 }
 
 .rounded {
