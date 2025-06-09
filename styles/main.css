@@ -22,6 +22,11 @@
   --bulma-danger-l: 57%;
 }
 
+a:focus, button:focus {
+  border: solid 2px black;
+  outline: solid 2px white
+}
+
 .rounded {
   margin-top: 6px;
   border-radius: 30px;
