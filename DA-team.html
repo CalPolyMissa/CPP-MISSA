@@ -13,10 +13,23 @@
     <link rel="icon" href="images/MISSA_Icon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MISSA DA Team</title>
+
+    <!-- SPLIDE (CAROUSEL) -->
+    <script src=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js "></script>
+    <link href=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css " rel="stylesheet">
+    <script>
+      document.addEventListener( 'DOMContentLoaded', function () {
+        new Splide( '#image-carousel' ).mount();
+      } );
+    </script>
+
+    <!-- Custom Styles -->
     <link rel="stylesheet" href="styles/main.css" />
+
     <!-- COMPONENTS -->
     <script src="components/navbar-header.js" type="text/javascript" defer></script>
     <script src="components/contact-footer.js" type="text/javascript" defer></script>
+
   </head>
   <body>
     <!-- NAVBAR HEADER -->
@@ -57,7 +70,6 @@
               flexible, tailored to your availability and interests.
             </p>
           </div>
-
           <!-- Image -->
           <div class="column is-4-desktop is-6-tablet  is-offset-1">
             <img src="images/2024_ITC_Presenter.png" alt="Placeholder image" />
@@ -79,7 +91,7 @@
             <!-- Column 1 -->
             <div class="column is-6-mobile is-3-tablet" id="center-in-div">
               <figure class="image is-1by1" style="width: 25%">
-                <img class="no-cover" src="images/MISSA_Icon.svg" alt="Placeholder image" />
+                <img class="no-cover" src="images/MISSA_Icon.svg" alt="" />
               </figure>
               <!-- Card 1 Content -->
               <div class="content has-text-dark">Gain exposure and build connections</div>
@@ -87,7 +99,7 @@
             <!-- Column 2 -->
             <div class="column is-6-mobile is-3-tablet" id="center-in-div">
               <figure class="image is-1by1" style="width: 25%">
-                <img class="no-cover" src="images/MISSA_Icon.svg" alt="Placeholder image" />
+                <img class="no-cover" src="images/MISSA_Icon.svg" alt="" />
               </figure>
               <!-- Card 2 Content -->
               <div class="content has-text-dark">"Learn by doing" through case studies</div>
@@ -95,7 +107,7 @@
             <!-- Column 3 -->
             <div class="column is-6-mobile is-3-tablet" id="center-in-div">
               <figure class="image is-1by1" style="width: 25%">
-                <img class="no-cover" src="images/MISSA_Icon.svg" alt="Placeholder image" />
+                <img class="no-cover" src="images/MISSA_Icon.svg" alt="" />
               </figure>
               <!-- Card 3 Content -->
               <div class="content has-text-dark">Learn data visualization and machine learning tools</div>
@@ -103,7 +115,7 @@
             <!-- Column 4 -->
             <div class="column is-6-mobile is-3-tablet" id="center-in-div">
               <figure class="image is-1by1" style="width: 25%">
-                <img class="no-cover" src="images/MISSA_Icon.svg" alt="Placeholder image" />
+                <img class="no-cover" src="images/MISSA_Icon.svg" alt="" />
               </figure>
               <!-- Card 4 Content -->
               <div class="content has-text-dark">Collaborate with like-minded students on projects</div>
@@ -215,7 +227,7 @@
               <!-- Project Description -->
               <p class="subtitle is-4">Semester Projects</p>
               <p>
-                As a member of the MISSA Data Analytics Team, you’ll have the
+                As a member of the MISSA Data Analytics Team, you will have the
                 opportunity to work on semester-long projects in partnership
                 with local companies. These projects allow you to apply the data
                 analysis tools and techniques learned during fall training
@@ -256,8 +268,91 @@
     <section class="hero is-medium">
       <div class="hero-body">
         <!-- Section Title -->
-        <p class="title has-text-centered">Previous DA Projects</p>
+        <h2 id="carousel-heading" class="title has-text-centered">Previous DA Projects</h2>
         <!-- Carousel Display -->
+        <section id="image-carousel" class="splide" aria-labelledby="carousel-heading">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <div class="splide__slide__container has-background-primary box is-flex is-flex-direction-column is-align-items-center m-5 mb-6 p-5" style="min-height: 650px">
+                  <h3 class="title is-4 has-text-primary-invert">RMDS Data Science Competition</h3>
+                  <div class="is-flex is-flex-grow-1">
+                    <iframe class="is-rounded" src="https://drive.google.com/file/d/1amITPh48gZMPYxkuaIn-6IazwUa-JdHy/preview" frameborder="0" width="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    <div class="is-flex-shrink-3 has-text-black has-background-white ml-4 p-2 is-rounded is-size-7-touch">
+                      <p>
+                        The Research Methods and Data Science Lab (also known as the RMDS Lab) is a community of analysts and researchers 
+                        based out of Pasadena, CA. They aim to empower the scientific community and advance contributions through 
+                        certification training, data impact consultation and other AI-powered services. During Spring 2021, the RMDS lab 
+                        held a data science competition with the premise being to use machine learning along with other data analytics 
+                        techniques to analyze how news sentiment, along with other factors such as the COVID-19 pandemic and a region’s 
+                        mobility index, affected different stock prices of the fossil fuel industry. The 2021-2022 Co-Directors of the 
+                        DA team, Ryan Peji and Marisa Nakanishi, took lead of this project and found it as a valuable learning experience.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container has-background-primary box is-flex is-flex-direction-column is-align-items-center m-5 mb-6 p-5" style="min-height: 650px">
+                  <h3 class="title is-4 has-text-primary-invert">ISACA Electric Vehicle Case Study</h3>
+                  <iframe class="is-flex-grow-1 is-rounded" src="https://docs.google.com/presentation/d/e/2PACX-1vTR8_7bKP5G12O-VBtikNfPopb3ylRcEDDOLbXXD_4Z4sPIYoSIYAYI5i-t1WICU3iyDjwSiYOvu1ww/embed?start=false" frameborder="0" width="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                  <div class="has-text-black has-background-white mt-4 p-2 is-rounded is-size-7-touch">
+                    <p>
+                      ISACA Los Angeles Chapter, So Cal Edison, and MISSA's Data Analytics team worked together to work on a case study 
+                      to analyze data and visualize data using PowerBI and Tableau to provide recommendations to SCE as to where to place 
+                      Electric Vehicle Charging Stations in the most effective locations. The goal is to place the EV charging stations 
+                      in areas that would make EV charging more accessible to residents living in multifamily buildings. At least 50% 
+                      of the stations must be located in environmentally impacted and disadvantaged communities in order to encourage 
+                      EV adoption in those areas. The team will be presenting their findings and teaching industry professionals how to 
+                      achieve similar dashboards during the SheLeadsTech Conference.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container has-background-primary rounded box is-flex is-flex-direction-column is-align-items-center m-5 mb-6 p-5" style="min-height: 650px">
+                  <h3 class="title is-4 has-text-primary-invert">SoCal Edison Power Outage Project</h3>
+                  <iframe class="is-flex-grow-1 is-rounded" src="https://drive.google.com/file/d/1-t7iESovQXTlQX0FCOsuXfhos3aBX93w/preview" frameborder="0" width="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                  <div class="has-text-black has-background-white mt-4 p-2 is-rounded is-size-7-touch">
+                    <p>
+                      SoCal Edison and MISSA's Data Analytics team analyzed the reasons for the escalation in power outages whether it 
+                      is due to heat waves, rainstorms, and/or rising instances of vandalism. MISSA's Data Analytics team goal is to 
+                      leverage machine learning and data analysis to enable SoCal Edison to rapidly identify the outage type and 
+                      expected duration of power outage.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container has-background-primary rounded box is-flex is-flex-direction-column is-align-items-center m-5 mb-6 p-5" style="min-height: 650px">
+                  <h3 class="title is-4 has-text-primary-invert">Forecasting Future Energy Needs</h3>
+                  <iframe class="is-flex-grow-1 is-rounded" src="https://drive.google.com/file/d/1D0pe0ditPiXBoa9q7pYn5z9Cx3yqLO_-/preview" frameborder="0" width="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                  <div class="has-text-black has-background-white mt-4 p-2 is-rounded is-size-7-touch">
+                    <p>
+                      SoCal Edison and MISSA's Data Analytics team's objective for this project is to develop a comprehensive system 
+                      to forecast future energy requirements by county, supporting SCE in infrastructure development and resource 
+                      allocation. The project aims to create customized energy-saving programs for areas with high energy usage.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container has-background-primary rounded box is-flex is-flex-direction-column is-align-items-center m-5 mb-6 p-5" style="min-height: 650px">
+                  <h3 class="title is-4 has-text-primary-invert">EMP SoCal Edison Project</h3>
+                  <iframe class="is-flex-grow-1 is-rounded" src="https://drive.google.com/file/d/1eg7FV_YuVol4wDVgDEIBgxkzvqnZO8GJ/preview" frameborder="0" width="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                  <div class="has-text-black has-background-white mt-4 p-2 is-rounded is-size-7-touch">
+                    <p>
+                      So Cal Edison and MISSA's Data Analytics team analyzed the research question, "How can correlating EMPs with 
+                      environmental and solar phenomena enhance SoCal Edison's preparedness for potential distruptions?" They used 
+                      Python and Tableau libraries to craft visual representations providing in-depth analysis and exploration to 
+                      identify key outcomes, trends, and conclusions.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
       </div>
     </section>
 
