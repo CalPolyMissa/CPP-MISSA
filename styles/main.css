@@ -50,7 +50,7 @@ a:focus, button:focus {
 }
 
 .is-rounded {
-  border-radius: var(--bulma-box-radius)
+  border-radius: var(--bulma-box-radius);
 }
 
 .mt--6 {
@@ -72,8 +72,21 @@ a:focus, button:focus {
   width: fit-content;
 }
 
+.w-25 {
+ width: 25%;
+}
+
+.gap-1 {
+  gap: 1%;
+}
+
 .is-serif {
   font-family:'Times New Roman', Times, serif
+}
+
+.text-justify {
+  text-align: justify;
+  word-spacing: 3%;
 }
 
 nav {
@@ -102,12 +115,18 @@ img {
   background-size: cover;
 }
 
-#center-in-div figure {
+.box.logo {
+  background-color: white;
+  width: 25%;
+  text-align: center;
+}
+
+.center-in-div figure {
   display: inline-table;
   padding-block-start: 50%;
 }
 
-#benefits-section-padding {
+.benefits-section-padding {
   padding-top: 5%;
   padding-bottom: 8%;
   padding-left: 5%;
