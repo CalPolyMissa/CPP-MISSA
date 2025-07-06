@@ -89,6 +89,10 @@ a:focus, button:focus {
   word-spacing: 3%;
 }
 
+.has-border {
+  border: #994444 6px solid;
+}
+
 nav {
   padding-left: 10%;
   padding-right: 10%;
