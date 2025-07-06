@@ -113,9 +113,9 @@ img {
   object-fit: contain;
 }
 
-/* Linear gradient from MISSA Pink to Background.jpg */
+/* Linear gradient from MISSA Pink to background.png */
 .background-fade {
-  background: linear-gradient(to right, hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l)) 0%, hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l)) 40%, hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l), 0%)) center no-repeat, url("../images/background.jpg") center no-repeat;
+  background: linear-gradient(to right, hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l)) 0%, hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l)) 40%, hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l), 0%)) center no-repeat, url("../images/background.png") center no-repeat;
   background-size: cover;
 }
 
