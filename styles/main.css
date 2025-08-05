@@ -72,6 +72,11 @@ html {
   .title {
     --bulma-title-color: #ffffff;
   }
+  
+  .navbar-item, .navbar-link {
+  color: white;
+  }
+
 }
 
 
@@ -83,7 +88,6 @@ a {
 }
 .navbar-item, .navbar-link, .navbar-dropdown.navbar-item {
   text-decoration-line: none;
-  color: #fff;
 }
 .button {
   text-decoration-line: none;
