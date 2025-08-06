@@ -159,17 +159,12 @@ a:focus, button:focus {
  width: 25%;
 }
 
-.gap-1 {
-  gap: 1%;
+.gap-6 {
+  gap: 6px;
 }
 
 .is-serif {
   font-family:'Times New Roman', Times, serif
-}
-
-.text-justify {
-  text-align: justify;
-  word-spacing: 3%;
 }
 
 .has-border {
@@ -200,8 +195,13 @@ nav {
 
 .box.logo {
   background-color: white;
-  width: 25%;
-  text-align: center;
+  height: 125px;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+.box.logo img {
+  object-fit: contain;
 }
 
 .center-in-div figure {
