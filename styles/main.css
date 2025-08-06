@@ -1,9 +1,14 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* Responsive Text Breakpoints */
+/* Responsive Text and Spacing Breakpoints */
 html {
   font-size: 16px
+}
+section {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 0;
 }
 @media only screen and (max-width: 1023px) {
   /* Tablet Breakpoint */
@@ -23,6 +28,14 @@ html {
   /* Mobile Breakpoint */
   html {
     font-size: 12px
+  }
+  section {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  .missa-logo {
+    width: 2rem;
+    height: 2rem;
   }
 }
 
@@ -79,7 +92,6 @@ html {
 
 }
 
-
 /* WCAG Accessibility Changes */
 /* Link Underline*/
 a {
@@ -104,12 +116,28 @@ a:focus, button:focus {
   height: auto;
 }
 
+/* Cards */
+.card {
+  max-width: 400px;
+  height: 100%;
+}
+
+/* General Descriptors */
 .is-rounded {
   border-radius: var(--bulma-box-radius);
 }
 
+.is-flex-reverse {
+  flex-direction: row-reverse;
+}
+
 .mt--6 {
   margin-top: -6rem;
+}
+
+.is-justified {
+  text-align: justify;
+  word-spacing: 3%;
 }
 
 .is-montserrat {
@@ -148,30 +176,26 @@ a:focus, button:focus {
   border: #994444 6px solid;
 }
 
-nav {
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
-section {
-  padding-left: 5%;
-  padding-right: 5%;
-  margin: 0;
-}
-
 /* Prevent stretched out images */
-img {
+.cover {
   object-fit: cover;
-}
-/* Undo cover on necessary images */
-.no-cover {
-  object-fit: contain;
 }
 
 /* Linear gradient from MISSA Pink to background.png */
 .background-fade {
   background: linear-gradient(to right, hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l)) 0%, hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l)) 40%, hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l), 0%)) center no-repeat, url("../images/background.png") center no-repeat;
   background-size: cover;
+}
+
+/* Specific Descriptors */
+nav {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.motto-box {
+  padding-left: 5%;
+  border-left: 3px solid hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l));
 }
 
 .box.logo {
@@ -182,12 +206,4 @@ img {
 
 .center-in-div figure {
   display: inline-table;
-  padding-block-start: 50%;
-}
-
-.benefits-section-padding {
-  padding-top: 5%;
-  padding-bottom: 8%;
-  padding-left: 5%;
-  padding-right: 5%;
 }
