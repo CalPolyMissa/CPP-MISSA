@@ -125,6 +125,7 @@ a:focus, button:focus {
 .columns {
   justify-content: stretch;
 }
+
 /* Card Columns - Center and grow on mobile */
 .card-columns.columns .column {
   display: flex;
@@ -201,6 +202,12 @@ a:focus, button:focus {
 .missa-logo {
   aspect-ratio: 1/1;
 } 
+
+.missa-logo {
+  aspect-ratio: 1/1;
+  width: 20px;
+  height: 20px;
+}
 
 /* Linear gradient from MISSA Pink to background.png */
 .background-fade {
