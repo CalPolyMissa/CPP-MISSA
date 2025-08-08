@@ -10,18 +10,28 @@ section {
   padding-right: 5%;
   margin: 0;
 }
+.navbar .missa-logo {
+  max-height: none;
+  max-width: none;
+  aspect-ratio: 1/1;
+  width: 25px;
+  height: 25px;
+}
 @media only screen and (max-width: 1023px) {
   /* Tablet Breakpoint */
   html {
     font-size: 14px
   }
-
   /* Navbar Menu */
   .navbar-item, .navbar-dropdown, .navbar-item .buttons .button {
     font-size: 2rem;
   }
   .navbar-menu {
     height: 100vh;
+  }
+  .navbar .missa-logo {
+    width: 30px;
+    height: 30px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -33,9 +43,9 @@ section {
     padding-left: 0%;
     padding-right: 0%;
   }
-  .missa-logo {
-    width: 2rem;
-    height: 2rem;
+  .navbar .missa-logo {
+    width: 35px;
+    height: 35px;
   }
 }
 
@@ -187,7 +197,7 @@ a:focus, button:focus {
 }
 
 .is-serif {
-  font-family:'Times New Roman', Times, serif
+  font-family:'Times New Roman', Times, serif;
 }
 
 .has-border {
@@ -197,16 +207,6 @@ a:focus, button:focus {
 /* Prevent stretched out images */
 .cover {
   object-fit: cover;
-}
-
-.missa-logo {
-  aspect-ratio: 1/1;
-} 
-
-.missa-logo {
-  aspect-ratio: 1/1;
-  width: 20px;
-  height: 20px;
 }
 
 /* Linear gradient from MISSA Pink to background.png */
@@ -219,6 +219,12 @@ a:focus, button:focus {
 nav {
   padding-left: 10%;
   padding-right: 10%;
+}
+
+.standalone-img {
+  max-height: 325px; 
+  object-fit: cover; 
+  width: 100%;
 }
 
 .motto-box {
