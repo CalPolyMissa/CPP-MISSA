@@ -33,6 +33,9 @@ section {
     width: 30px;
     height: 30px;
   }
+  p {
+    text-align: justify;
+  }
 }
 @media only screen and (max-width: 768px) {
   /* Mobile Breakpoint */
@@ -115,9 +118,18 @@ a {
   text-decoration-line: none;
 }
 /* Tab focus border */
-a:focus, button:focus {
+a:focus, .button:focus {
   border: solid 2px black;
   outline: solid 2px white;
+}
+/* Screen reader only text */
+.sr-only {
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
 }
 
 /* Carousel */
