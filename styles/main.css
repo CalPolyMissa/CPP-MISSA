@@ -50,6 +50,10 @@ section {
     width: 35px;
     height: 35px;
   }
+  .is-flex-column-mobile {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /* Light Mode */
@@ -132,12 +136,6 @@ height:1px;
 overflow:hidden;
 }
 
-/* Carousel */
-.splide__slide img {
-  width: 100%;
-  height: auto;
-}
-
 /* Cards */
 .card {
   max-width: 350px;
@@ -200,6 +198,14 @@ overflow:hidden;
   width: fit-content;
 }
 
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
 .w-25 {
  width: 25%;
 }
@@ -208,12 +214,16 @@ overflow:hidden;
   gap: 6px;
 }
 
+.gap-15 {
+  gap: 15px;
+}
+
 .is-serif {
   font-family:'Times New Roman', Times, serif;
 }
 
 .has-border {
-  border: #994444 6px solid;
+  border: #330000 3px solid;
 }
 
 /* Prevent stretched out images */
