@@ -17,6 +17,20 @@ section {
   width: 25px;
   height: 25px;
 }
+.slide-size {
+  height: 1100px
+}
+@media only screen and (max-width: 1407px) {
+  .slide-size {
+    height: 825px
+  }
+}
+@media only screen and (max-width: 1215px) {
+  /* Desktop Breakpoint */
+  .slide-size {
+    height: 750px
+  }  
+}
 @media only screen and (max-width: 1023px) {
   /* Tablet Breakpoint */
   html {
@@ -36,6 +50,9 @@ section {
   p {
     text-align: justify;
   }
+  .slide-size {
+    height: 750px;
+  }
 }
 @media only screen and (max-width: 768px) {
   /* Mobile Breakpoint */
@@ -53,6 +70,9 @@ section {
   .is-flex-column-mobile {
     display: flex;
     flex-direction: column;
+  }
+  .slide-size {
+    height: 600px;
   }
 }
 
