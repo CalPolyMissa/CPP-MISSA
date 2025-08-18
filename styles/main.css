@@ -209,15 +209,6 @@ overflow:hidden;
   justify-content: stretch;
 }
 
-/* Card Columns - Center and grow on mobile */
-.card-columns.columns .column {
-  display: flex;
-  justify-content: center;
-}
-.card-columns.columns .column .card {
-  flex-grow: 1;
-}
-
 /* Lists */
 .content ul.is-lined-list {
   border-top: 2px solid hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l));
@@ -233,6 +224,10 @@ overflow:hidden;
 }
 
 /* General Descriptors */
+p, a {
+  word-wrap: break-word;
+}
+
 .is-rounded {
   border-radius: var(--bulma-box-radius);
 }
