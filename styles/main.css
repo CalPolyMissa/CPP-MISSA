@@ -29,6 +29,16 @@ section {
 .banner-margin {
   margin-bottom: 4rem;
 }
+.footer-left {
+  align-items: start;
+}
+.footer-right {
+  align-items: end;
+  flex-direction: column-reverse;
+}
+.footer-bottom {
+  justify-content: space-between;
+}
 @media only screen and (max-width: 1407px) {
   .slide-size {
     height: 825px
@@ -65,6 +75,12 @@ section {
   .standalone-img {
     max-height: 400px;
   }
+  .footer-bottom {
+    flex-direction: column;
+  }
+  .footer-bottom .level {
+    margin: auto;
+  }
 }
 @media only screen and (max-width: 768px) {
   /* Mobile Breakpoint */
@@ -93,6 +109,13 @@ section {
   }
   .banner-margin {
     margin-bottom: 0rem;
+  }
+  .footer-left {
+    align-items: center;
+  }
+  .footer-right {
+    align-items: center;
+    flex-direction: column;
   }
 }
 
