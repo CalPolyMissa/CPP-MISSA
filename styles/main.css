@@ -140,6 +140,8 @@ section {
   --bulma-danger-h: 0deg;
   --bulma-danger-s: 62%;
   --bulma-danger-l: 57%;
+
+  --color-black-bean: #330000;
 }
 .title {
   --bulma-title-color: hsl(0deg, 100%, 10%);
@@ -165,7 +167,12 @@ section {
   .title {
     --bulma-title-color: #ffffff;
   }
-  
+  .modal-card-foot {
+    --bulma-modal-card-foot-background-color: hsl(var(--bulma-scheme-h), var(--bulma-scheme-s), var(--bulma-scheme-main-l));
+  }
+  .modal-background {
+    --bulma-modal-background-background-color: #000000aa;
+  }
   .navbar-item, .navbar-link {
   color: white;
   }
@@ -251,7 +258,7 @@ p, a {
 }
 
 .has-text-black-bean {
-  color: #330000;
+  color: var(--color-black-bean);
 }
 
 .w-fit {
