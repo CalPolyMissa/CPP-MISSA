@@ -146,7 +146,15 @@ section {
 .title {
   --bulma-title-color: hsl(0deg, 100%, 10%);
 }
-
+.splide__pagination__page {
+  background-color: var(--color-black-bean);
+}
+.splide__pagination__page.is-active {
+  background-color: hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l));
+}
+.splide__arrows .splide__arrow {
+  background-color: hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l));
+}
 /* Dark Mode */
 @media (prefers-color-scheme: dark) {
   /* Bulma Variables */
@@ -176,7 +184,9 @@ section {
   .navbar-item, .navbar-link {
   color: white;
   }
-
+  .splide__pagination__page {
+    background-color: #ffffff;
+  }
 }
 
 /* WCAG Accessibility Changes */
@@ -230,6 +240,22 @@ overflow:hidden;
   border-bottom: 2px solid hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l));
 }
 
+/* Slides */
+.splide__arrows {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.splide__arrows .splide__arrow {
+  position: relative;
+  left: 0;
+}
+.slide-pagination {
+  bottom: 1.375rem;
+}
 /* General Descriptors */
 p, a {
   word-wrap: break-word;
