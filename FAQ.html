@@ -17,6 +17,8 @@
     <!-- COMPONENTS -->
     <script src="components/navbar-header.js" type="text/javascript" defer></script>
     <script src="components/contact-footer.js" type="text/javascript" defer></script>
+
+    <script src="scripts/dropdowns.js" type="text/javascript" defer></script>
     <!-- FONT AWESOME -->
     <script src="https://kit.fontawesome.com/6ba1bc120d.js" crossorigin="anonymous"></script>
   </head>
@@ -34,220 +36,131 @@
       </div>
     </section>
 
-    <section class="hero">
-      <div class="hero-body">
-        <div class="dropdown">
-          <!-- Question 1 -->
-          <div class="dropdown-trigger">
-            <button
-              class="button"
-              aria-haspopup="true"
-              aria-controls="dropdown-menu3"
-            >
-              <span>1. How much does MISSA membership cost?</span>
-              <span class="icon is-small">
-                <img
-                  class="level-item"
-                  src="images/dropdown_arrow.png"
-                  alt="dropdown arrow"
-                  style="width: 20px; height: 20px"
-                />
-              </span>
-            </button>
-          </div>
-          <div class="dropdown-menu" id="dropdown-menu3" role="menu">
-            <div class="dropdown-content">
-              <div class="dropdown-item">
-                A MISSA membership costs $30 and is valid for the whole academic
-                year.
-              </div>
+    <section class="section is-small">
+      <div class="dropdown">
+        <!-- Question 1 -->
+        <div class="dropdown-trigger">
+          <button
+            class="button"
+            aria-haspopup="true"
+            aria-controls="dropdown-menu1"
+          >
+            <span>1. How much does a MISSA membership cost?</span>
+            <span class="icon">
+              <i class="fa-solid fa-chevron-down"></i>
+            </span>
+          </button>
+        </div>
+        <div class="dropdown-menu" id="dropdown-menu1" role="menu">
+          <div class="dropdown-content">
+            <div class="dropdown-item">
+              A MISSA membership costs $30 and is valid for the entire academic
+              year.
             </div>
           </div>
         </div>
-        <div class="dropdown">
-          <!-- Question 2 -->
-          <div class="dropdown-trigger">
-            <button
-              class="button"
-              aria-haspopup="true"
-              aria-controls="dropdown-menu3"
-            >
-              <span>2. What is ISACA?</span>
-              <span class="icon is-small">
-                <img
-                  class="level-item"
-                  src="images/dropdown_arrow.png"
-                  alt="dropdown arrow"
-                  style="width: 20px; height: 20px"
-                />
-              </span>
-            </button>
-          </div>
-          <div class="dropdown-menu" id="dropdown-menu3" role="menu">
-            <div class="dropdown-content">
-              <div class="dropdown-item">
-                ISACA is a Los Angeles non-profit organization that is committed
-                to amplifying and developing information systems audit
-                professions.
-                <br />
-                <a href="https://isacala.org/">Learn more</a>
-              </div>
+      </div>
+      <div class="dropdown">
+        <!-- Question 2 -->
+        <div class="dropdown-trigger">
+          <button
+            class="button"
+            aria-haspopup="true"
+            aria-controls="dropdown-menu2"
+          >
+            <span>2. What is ISACA?</span>
+            <span class="icon">
+              <i class="fa-solid fa-chevron-down"></i>
+            </span>
+          </button>
+        </div>
+        <div class="dropdown-menu" id="dropdown-menu2" role="menu">
+          <div class="dropdown-content">
+            <div class="dropdown-item">
+              ISACA is a Los Angeles non-profit organization that is committed
+              to amplifying and developing information systems audit
+              professions.
+              <br />
+              <a href="https://isacala.org/" target="_blank" referrerpolicy="no-referrer">Learn more <span class="sr-only">about ISACA opens a new tab</span></a>
             </div>
           </div>
         </div>
-        <div class="dropdown">
-          <!-- Question 3 -->
-          <div class="dropdown-trigger">
-            <button
-              class="button"
-              aria-haspopup="true"
-              aria-controls="dropdown-menu3"
-            >
-              <span>3. How do I get involved with MISSA?</span>
-              <span class="icon is-small">
-                <img
-                  class="level-item"
-                  src="images/dropdown_arrow.png"
-                  alt="dropdown arrow"
-                  style="width: 20px; height: 20px"
-                />
-              </span>
-            </button>
-          </div>
-          <div class="dropdown-menu" id="dropdown-menu3" role="menu">
-            <div class="dropdown-content">
-              <div class="dropdown-item">
-                Go to weekly meetings, be sure to join MISSA's discord channel,
-                get in touch with MISSA e-board members and other MISSA members.
-                This way you build a network and learn from others. It is
-                important to communicate and establish a network with other
-                students who share the same passion as you.
-              </div>
+      </div>
+      <div class="dropdown">
+        <!-- Question 3 -->
+        <div class="dropdown-trigger">
+          <button
+            class="button"
+            aria-haspopup="true"
+            aria-controls="dropdown-menu3"
+          >
+            <span>3. How do I get involved with MISSA?</span>
+            <span class="icon">
+              <i class="fa-solid fa-chevron-down"></i>
+            </span>
+          </button>
+        </div>
+        <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+          <div class="dropdown-content">
+            <div class="dropdown-item">
+              Go to weekly meetings, be sure to join MISSA's discord channel,
+              get in touch with MISSA e-board members and other MISSA members.
+              This way you build a network and learn from others. It is
+              important to communicate and establish a network with other
+              students who share the same passion as you.
             </div>
           </div>
         </div>
-        <div class="dropdown">
-          <!-- Question 4 -->
-          <div class="dropdown-trigger">
-            <button
-              class="button"
-              aria-haspopup="true"
-              aria-controls="dropdown-menu3"
-            >
-              <span>4. What is ITC?</span>
-              <span class="icon is-small">
-                <img
-                  class="level-item"
-                  src="images/dropdown_arrow.png"
-                  alt="dropdown arrow"
-                  style="width: 20px; height: 20px"
-                />
-              </span>
-            </button>
-          </div>
-          <div class="dropdown-menu" id="dropdown-menu3" role="menu">
-            <div class="dropdown-content">
-              <div class="dropdown-item">
-                ITC is an information technology competition that allows
-                students to showcase their skills and present their ideas to a
-                group of judges. You learn to work with a group of students to
-                tackle a case specific to the category you choose.
-                <br />
-                <a href="">Learn more</a>
-              </div>
+      </div>
+      <div class="dropdown">
+        <!-- Question 4 -->
+        <div class="dropdown-trigger">
+          <button
+            class="button"
+            aria-haspopup="true"
+            aria-controls="dropdown-menu4"
+          >
+            <span>4. What is ITC?</span>
+            <span class="icon">
+              <i class="fa-solid fa-chevron-down"></i>
+            </span>
+          </button>
+        </div>
+        <div class="dropdown-menu" id="dropdown-menu4" role="menu">
+          <div class="dropdown-content">
+            <div class="dropdown-item">
+              ITC is an information technology competition that allows
+              students to showcase their skills and present their ideas to a
+              group of judges. You learn to work with a group of students to
+              tackle a case specific to the category you choose.
+              <br />
+              <a href="ITC.html">Learn more <span class="sr-only">about ITC</span></a>
             </div>
           </div>
         </div>
-        <div class="dropdown">
-          <!-- Question 5 -->
-          <div class="dropdown-trigger">
-            <button
-              class="button"
-              aria-haspopup="true"
-              aria-controls="dropdown-menu3"
-            >
-              <span>5. What is the Fall Professional Tech Mixer?</span>
-              <span class="icon is-small">
-                <img
-                  class="level-item"
-                  src="images/dropdown_arrow.png"
-                  alt="dropdown arrow"
-                  style="width: 20px; height: 20px"
-                />
-              </span>
-            </button>
-          </div>
-          <div class="dropdown-menu" id="dropdown-menu3" role="menu">
-            <div class="dropdown-content">
-              <div class="dropdown-item">
-                MISSA's Fall Professional Tech Mixer is an event held during the
-                fall where students can network and find opportunities to
-                explore careers.
-                <br />
-                <a href="">Learn more</a>
-              </div>
-            </div>
-          </div>
+      </div>
+      <div class="dropdown">
+        <!-- Question 5 -->
+        <div class="dropdown-trigger">
+          <button
+            class="button"
+            aria-haspopup="true"
+            aria-controls="dropdown-menu5"
+          >
+            <span>5. What is the Fall Professional Tech Mixer?</span>
+            <span class="icon">
+              <i class="fa-solid fa-chevron-down"></i>
+            </span>
+          </button>
         </div>
-        <div class="dropdown">
-          <!-- Question 6 -->
-          <div class="dropdown-trigger">
-            <button
-              class="button"
-              aria-haspopup="true"
-              aria-controls="dropdown-menu3"
-            >
-              <span>6. What is ISACA?</span>
-              <span class="icon is-small">
-                <img
-                  class="level-item"
-                  src="images/dropdown_arrow.png"
-                  alt="dropdown arrow"
-                  style="width: 20px; height: 20px"
-                />
-              </span>
-            </button>
-          </div>
-          <div class="dropdown-menu" id="dropdown-menu3" role="menu">
-            <div class="dropdown-content">
-              <div class="dropdown-item">
-                ISACA is a Los Angeles non-profit organization that is committed
-                to amplifying and developing information systems audit
-                professions.
-                <br />
-                <a href="https://isacala.org/">Learn more</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="dropdown">
-          <!-- Question 7 -->
-          <div class="dropdown-trigger">
-            <button
-              class="button"
-              aria-haspopup="true"
-              aria-controls="dropdown-menu3"
-            >
-              <span>7. What is ISACA?</span>
-              <span class="icon is-small">
-                <img
-                  class="level-item"
-                  src="images/dropdown_arrow.png"
-                  alt="dropdown arrow"
-                  style="width: 20px; height: 20px"
-                />
-              </span>
-            </button>
-          </div>
-          <div class="dropdown-menu" id="dropdown-menu3" role="menu">
-            <div class="dropdown-content">
-              <div class="dropdown-item">
-                ISACA is a Los Angeles non-profit organization that is committed
-                to amplifying and developing information systems audit
-                professions.
-                <br />
-                <a href="https://isacala.org/">Learn more</a>
-              </div>
+        <div class="dropdown-menu" id="dropdown-menu5" role="menu">
+          <div class="dropdown-content">
+            <div class="dropdown-item">
+              MISSA's Fall Professional Tech Mixer is an event held during the
+              fall where students can network, find opportunities, and
+              explore careers.
+              <br />
+              <a href="tech-mixer.html">Learn more <span class="sr-only">about the Fall Tech Mixer</span></a>
             </div>
           </div>
         </div>
