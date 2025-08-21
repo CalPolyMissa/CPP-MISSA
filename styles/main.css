@@ -257,15 +257,6 @@ overflow:hidden;
   bottom: 1.375rem;
 }
 
-/* Calendar */
-.calendar {
-  width: 100%;
-  max-width: 1000px;
-  height: 640px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /* General Descriptors */
 p, a {
   word-wrap: break-word;
@@ -341,6 +332,22 @@ p, a {
 }
 
 /* Specific Descriptors */
+
+/* FAQ */
+.faq {
+  min-height: 55vh;
+}
+
+/* Calendar */
+.calendar {
+  width: 100%;
+  max-width: 1000px;
+  height: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Nav */
 nav {
   padding-left: 10%;
   padding-right: 10%;
