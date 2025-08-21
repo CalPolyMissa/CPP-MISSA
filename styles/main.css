@@ -240,6 +240,13 @@ overflow:hidden;
   border-bottom: 2px solid hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l));
 }
 
+/* Boxes */
+.box:not(.logo) {
+  max-width: 2000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Slides */
 .splide__arrows {
   display: flex;
@@ -252,6 +259,9 @@ overflow:hidden;
 .splide__arrows .splide__arrow {
   position: relative;
   left: 0;
+}
+.splide__arrow svg {
+  fill: var(--color-black-bean);
 }
 .slide-pagination {
   bottom: 1.375rem;
