@@ -6,7 +6,7 @@ fetch("components/splide-container.html")
 
 // Define the splide-container after fetching.
 function defineSplideContainer(html) {
-  class SplideContainer extends HTMLDivElement {
+  class SplideContainer extends HTMLElement {
     constructor() {
       super();
     }
@@ -22,5 +22,5 @@ function defineSplideContainer(html) {
   }
 
   // Add splide-container to document custom elements.
-  customElements.define("splide-container", SplideContainer, { extends: "div" });
+  customElements.define("splide-container", SplideContainer);
 }

@@ -18,7 +18,7 @@ section {
   height: 25px;
 }
 .slide-size {
-  height: 1100px
+  height: 850px
 }
 .standalone-img {
   max-height: 500px; 
@@ -40,9 +40,10 @@ section {
   justify-content: space-between;
 }
 @media only screen and (max-width: 1407px) {
-  .slide-size {
+  /* Widescreen Breakpoint */
+  /* .slide-size {
     height: 825px
-  }
+  } */
 }
 @media only screen and (max-width: 1215px) {
   /* Desktop Breakpoint */
