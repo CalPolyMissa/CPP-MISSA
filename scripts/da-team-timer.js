@@ -1,6 +1,6 @@
 let daTeamTimer = setInterval(function() {
   // Get application open and close dates.
-  let closeDate = new Date("Aug 29, 2025 23:59:59").getTime();
+  let closeDate = new Date("Sep 5, 2025 23:59:59").getTime();
   let openDate = new Date("Aug 22, 2025 12:00:00").getTime();
 
   
@@ -29,7 +29,7 @@ let daTeamTimer = setInterval(function() {
       let minutes = Math.floor((distanceClose % (1000 * 60 * 60)) / (1000 * 60));
       let seconds = Math.floor((distanceClose % (1000 * 60)) / 1000);
 
-      document.getElementById("da-team-application").innerHTML = '<a href="https://forms.gle/dkqsvc49Vht2MtFB7" class="has-text-weight-bold is-size-5">Apply now! Due Aug 29th • ' + days + "d " + hours + "h "
+      document.getElementById("da-team-application").innerHTML = '<a href="https://forms.gle/dkqsvc49Vht2MtFB7" class="has-text-weight-bold is-size-5">Apply now! Due Sep 5th • ' + days + "d " + hours + "h "
       + minutes + "m " + seconds + "s" + '</a>';
     }
     else if (page.includes("get-involved")) {
