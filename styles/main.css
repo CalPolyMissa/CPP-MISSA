@@ -155,6 +155,7 @@ section {
 }
 .splide__arrows .splide__arrow {
   background-color: hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l));
+  opacity: 0.8;
 }
 /* Dark Mode */
 @media (prefers-color-scheme: dark) {
@@ -252,7 +253,7 @@ overflow:hidden;
 }
 
 /* Slides */
-.splide__arrows {
+.project-arrows {
   display: flex;
   justify-content: space-between;
   margin-top: 1.5rem;
@@ -260,14 +261,14 @@ overflow:hidden;
   margin-left: auto;
   margin-right: auto;
 }
-.splide__arrows .splide__arrow {
+.project-arrows .splide__arrow {
   position: relative;
   left: 0;
 }
 .splide__arrow svg {
   fill: var(--color-black-bean);
 }
-.slide-pagination {
+.splide__pagination.slide-pagination {
   bottom: 1.375rem;
 }
 
