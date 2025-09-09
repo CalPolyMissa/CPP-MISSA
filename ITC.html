@@ -14,9 +14,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IT Competition</title>
     <link rel="stylesheet" href="styles/main.css" />
+
+    <!-- SPLIDE (CAROUSEL) -->
+    <script src=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js "></script>
+    <link href=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css " rel="stylesheet">
+    <script src="scripts/carousel.js"></script>
+
     <!-- COMPONENTS -->
     <script src="components/navbar-header.js" type="text/javascript" defer></script>
     <script src="components/contact-footer.js" type="text/javascript" defer></script>
+
     <!-- FONT AWESOME -->
     <script src="https://kit.fontawesome.com/6ba1bc120d.js" crossorigin="anonymous"></script>
   </head>
@@ -60,10 +67,56 @@
             where they will have their work judged and critiqued. -->
           </p>
         </div>
-        <!-- IMAGE CONTAINER -->
-        <div class="column is-5">
-          <img src="images/2024_ITC_Presenter.png" alt="ITC Presentation" />
-        </div>
+        <!-- CAROUSEL DISPLAY -->
+        <section id="project-carousel" class="splide column is-5">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <img src="images/ITC/ITC-photo-1.jpg" alt="Three students presenting at ITC" />
+              </li>
+              <li class="splide__slide">
+                <img src="images/ITC/ITC-photo-2.jpg" alt="Four students presenting a bar graph" />
+              </li>
+              <li class="splide__slide">
+                <img src="images/ITC/ITC-photo-3.jpg" alt="Two students presenting a pie chart" />
+              </li>
+              <li class="splide__slide">
+                <img src="images/ITC/ITC-photo-4.jpg" alt="Two students presenting a summary slide" />
+              </li>
+              <li class="splide__slide">
+                <img src="images/ITC/ITC-photo-5.jpg" alt="Four students presenting at ITC" />
+              </li>
+              <li class="splide__slide">
+                <img src="images/ITC/ITC-photo-6.jpg" alt="Three ITC judges at the front of the room" />
+              </li>
+              <li class="splide__slide">
+                <img src="images/ITC/ITC-photo-7.jpg" alt="Three ITC judges at a different angle" />
+              </li>
+              <li class="splide__slide">
+                <img src="images/ITC/ITC-photo-8.jpg" alt="Five students presenting a histogram at ITC" />
+              </li>
+              <li class="splide__slide">
+                <img src="images/ITC/ITC-photo-9.jpg" alt="Wide shot of students in a classroom" />
+              </li>
+              <li class="splide__slide">
+                <img src="images/ITC/ITC-photo-10.jpg" alt="Many students watching a presentation at the end of ITC" />
+              </li>
+              <li class="splide__slide">
+                <img src="images/ITC/ITC-photo-11.jpg" alt="Students sitting at long desks" />
+              </li>
+              <li class="splide__slide">
+                <img src="images/ITC/ITC-photo-12.jpg" alt="Speaker presenting to students" />
+              </li>
+              <li class="splide__slide">
+                <img src="images/ITC/ITC-photo-13.jpg" alt="Guest speaker Peter Sprenger taking to students" />
+              </li>
+              <li class="splide__slide">
+                <img src="images/ITC/ITC-photo-14.jpg" alt="Close up of students sitting at long desks" />
+              </li>
+            </ul>
+          </div>
+          <ul class="splide__pagination slide-pagination"></ul>
+        </section>
       </div>
     </section>
 
@@ -73,36 +126,15 @@
       <!-- Rundown Columns -->
       <div class="columns is-centered is-multiline">
         <!-- Column 1 -->
-        <div class="column is-3-desktop is-5-tablet">
+        <div class="column is-3-desktop is-4-tablet">
           <!-- Card 1 -->
           <div class="card mx-auto">
             <!-- Card 1 Content -->
             <div class="card-content">
               <div class="content">
                 <!-- Card 1 Title -->
-                <h3 class="title has-text-centered is-3">Categories</h3>
-                <!-- Card 1 Description -->
-                <ul class="is-size-4 is-lined-list">
-                  <li>Business Strategy</li>
-                  <li>Data Analytics</li>
-                  <li>Web App Development</li>
-                  <li>Digital Forensics</li>
-                  <li>IT Security</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Column 2 -->
-        <div class="column is-3-desktop is-5-tablet">
-          <!-- Card 2 -->
-          <div class="card mx-auto">
-            <!-- Card 2 Content -->
-            <div class="card-content">
-              <div class="content">
-                <!-- Card 2 Title -->
                 <h3 class="title has-text-centered is-3">Benefits</h3>
-                <!-- Card 2 Description -->
+                <!-- Card 1 Description -->
                 <ul class="is-size-5 is-lined-list">
                   <li>Cash prizes for each of the five case categories</li>
                   <li>Opportunities offered to past winners and competitors</li>
@@ -114,16 +146,16 @@
             </div>
           </div>
         </div>
-        <!-- Column 3 -->
-        <div class="column is-3-desktop is-5-tablet">
-          <!-- Card 3 -->
+        <!-- Column 2 -->
+        <div class="column is-3-desktop is-4-tablet">
+          <!-- Card 2 -->
           <div class="card mx-auto">
-            <!-- Card 3 Content -->
+            <!-- Card 2 Content -->
             <div class="card-content">
               <div class="content">
-                <!-- Card 3 Title -->
+                <!-- Card 2 Title -->
                 <h3 class="title has-text-centered is-3">Requirements</h3>
-                <!-- Card 3 Description -->
+                <!-- Card 2 Description -->
                 <ul class="is-size-6 is-lined-list">
                   <li>Min. 3 per team (max. 5)</li>
                   <li>Max. 1 Grad student per team</li>
@@ -137,22 +169,22 @@
             </div>
           </div>
         </div>
-        <!-- Column 4 -->
-        <div class="column is-3-desktop is-5-tablet">
-          <!-- Card 4 -->
+        <!-- Column 3 -->
+        <div class="column is-3-desktop is-4-tablet">
+          <!-- Card 3 -->
           <div class="card mx-auto">
-            <!-- Card 4 Content -->
+            <!-- Card 3 Content -->
             <div class="card-content">
               <div class="content">
-                <!-- Card 4 Title -->
+                <!-- Card 3 Title -->
                 <h3 class="title has-text-centered is-3">Resources</h3>
-                <!-- Card 4 Description -->
+                <!-- Card 3 Description -->
                 <ul class="is-size-5 is-lined-list">
-                  <li><a href="#">ITC Bootcamp 2022</a></li>
-                  <li><a href="#">ITC Sample Biography Consultant</a></li>
-                  <li><a href="#">ITC Oral Presentation Checklist</a></li>
-                  <li><a href="#">ITC Deliverable Checklist</a></li>
-                  <li><a href="#">ITC Sample Deliverable</a></li>
+                  <li><a href="https://drive.google.com/file/d/1DqhigNkRcID1YhGA5nRipHtS-Om2nJi1/view?usp=sharing">ITC Bootcamp 2022</a></li>
+                  <li><a href="https://drive.google.com/file/d/1kDCapBWy8BDkQPopvtxHA7r9cRdWD1o7/view?usp=sharing">ITC Sample Biography Consultant</a></li>
+                  <li><a href="https://drive.google.com/file/d/1pWGqNnzMT1tTToJ5gb2LOEFxQJ7KwlpA/view?usp=sharing">ITC Oral Presentation Checklist</a></li>
+                  <li><a href="https://drive.google.com/file/d/1YJHuFlYKB8KEwkeeAMOyerjyioGoSsZg/view?usp=sharing">ITC Deliverable Checklist</a></li>
+                  <li><a href="https://drive.google.com/file/d/12-3CZEvER_5PNDPpwqURB2Hn_waVXSEj/view?usp=sharing">ITC Sample Deliverable</a></li>
                 </ul>
               </div>
             </div>
@@ -277,17 +309,6 @@
       </div>
     </section>
 
-    <!-- Previous Competitors Section -->
-    <section class="section is-small">
-      <!-- Section Title -->
-      <h2 class="title has-text-centered">Our Previous Competitors</h2>
-      <!-- Carousel Display -->
-      <div class="has-text-centered">
-        <i class="fa-solid fa-wrench fa-2xl my-5"></i>
-        <p class="subtitle has-text-centered">Under Construction</p>
-      </div>
-    </section>
-
     <!-- Sponsors Section -->
     <section class="section is-small">
       <!-- Section Title -->
@@ -338,6 +359,55 @@
           <div class="column is-3-tablet is-5-mobile box logo">
             <img alt="Southern California Edison" src="images/brand-logos/Southern-CA-Edison.png">
           </div>
+        </div>
+    </section>
+
+    <!-- Previous Competitors Section -->
+    <section class="section is-small">
+      <!-- Section Title -->
+      <h2 class="title is-size-2 has-text-centered">Previous Competitors</h2>
+      <!-- Companies Section -->
+        <div class="mt-6 columns is-centered is-mobile is-multiline is-align-items-center gap-6">
+          <!-- AIS UCR -->
+          <div class="column is-3-mobile is-3-tablet is-2-desktop box logo">
+            <img alt="Association for Information Systems at UCR" src="images/ITC/past-competitors/ais-ucr.png">
+          </div>
+          <!-- BDA CSUF -->
+          <div class="column is-3-mobile is-3-tablet is-2-desktop box logo">
+            <img alt="Business and Data Analytics Club, California State University, Fullerton" src="images/ITC/past-competitors/business-and-da-club-csuf.png">
+          </div>
+          <!-- AIS -->
+          <div class="column is-3-mobile is-3-tablet is-2-desktop box logo">
+            <img alt="Association for Information Systems" src="images/ITC/past-competitors/cba_ais.png">
+          </div>
+          <!-- CSS -->
+          <div class="column is-3-mobile is-3-tablet is-2-desktop box logo">
+            <img alt="Computer Science Society, CSS, Connect Develop Innovate" src="images/ITC/past-competitors/css.png">
+          </div>
+          <!-- DSAI -->
+          <div class="column is-3-mobile is-3-tablet is-2-desktop box logo">
+            <img alt="Data Science & Artificial Intelligence, DS&AI" src="images/ITC/past-competitors/dsai.png">
+          </div>
+          <!-- FAST -->
+          <div class="column is-3-mobile is-3-tablet is-2-desktop box logo">
+            <img alt="Forensics and Security Technology, FAST, Information Intelligence" src="images/ITC/past-competitors/fast.png">
+          </div>
+          <!-- Girls Who Code -->
+          <div class="column is-3-mobile is-3-tablet is-2-desktop box logo">
+            <img alt="Girls Who Code" src="images/ITC/past-competitors/girls-who-code.png">
+          </div>
+          <!-- CSUN Layer 8 -->
+          <div class="column is-3-mobile is-3-tablet is-2-desktop box logo">
+            <img alt="CSUN Layer 8" src="images/ITC/past-competitors/layer-8-csun.png">
+          </div>
+          <!-- MISA CSUN -->
+          <div class="column is-3-mobile is-3-tablet is-2-desktop box logo">
+            <img alt="CSUN MISA, Management Information Systems Association" src="images/ITC/past-competitors/misa-csun.png">
+          </div>
+          <!-- OSS -->
+          <div class="column is-3-mobile is-3-tablet is-2-desktop box logo">
+            <img alt="Offensive Security Society" src="images/ITC/past-competitors/oss.png">
+          </div>          
         </div>
     </section>
 
