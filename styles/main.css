@@ -221,10 +221,31 @@ height:1px;
 overflow:hidden;
 }
 
+/* Fade in sections */
+/* Taken from https://dev.to/selbekk/how-to-fade-in-content-as-it-scrolls-into-view-10j4 */
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
+}
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+
 /* Cards */
 .card {
   max-width: 350px;
   height: 100%;
+}
+/* Square images for headshots */
+figure.image.square img {
+  aspect-ratio: 1/1;
+  object-fit: cover;
 }
 
 .columns {
