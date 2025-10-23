@@ -411,3 +411,14 @@ nav {
 .center-in-div figure {
   display: inline-table;
 }
+
+/* CSAF */
+.csaf-button-wrap {
+  white-space: normal;
+  height: auto;
+  line-height: 1.2;
+}
+
+.csaf-buttons-centered {
+  justify-content: center;
+}
