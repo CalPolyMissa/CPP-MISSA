@@ -187,7 +187,7 @@ section {
     --bulma-modal-background-background-color: #000000aa;
   }
   .navbar-item, .navbar-link {
-  color: white;
+    color: white;
   }
   .splide__pagination__page {
     background-color: #ffffff;
@@ -213,29 +213,31 @@ a:focus, .button:focus {
 }
 /* Screen reader only text */
 .sr-only {
-position:absolute;
-left:-10000px;
-top:auto;
-width:1px;
-height:1px;
-overflow:hidden;
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
 }
 
-/* Fade in sections */
-/* Taken from https://dev.to/selbekk/how-to-fade-in-content-as-it-scrolls-into-view-10j4 */
-.fade-in-section {
-  opacity: 0;
-  transform: translateY(20vh);
-  visibility: hidden;
-  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
-  will-change: opacity, visibility;
+/* Media query for non-reduced-motion */
+@media (prefers-reduced-motion: no-preference) {
+  /* Fade in sections */
+  /* Taken from https://dev.to/selbekk/how-to-fade-in-content-as-it-scrolls-into-view-10j4 */
+  .fade-in-section {
+    opacity: 0;
+    transform: translateY(10vh);
+    visibility: hidden;
+    transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+    will-change: opacity, visibility;
+  }
+  .fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+  }
 }
-.fade-in-section.is-visible {
-  opacity: 1;
-  transform: none;
-  visibility: visible;
-}
-
 
 /* Cards */
 .card {
@@ -337,7 +339,7 @@ p, a {
 }
 
 .w-25 {
- width: 25%;
+  width: 25%;
 }
 
 .gap-6 {
