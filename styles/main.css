@@ -422,3 +422,8 @@ nav {
 .csaf-buttons-centered {
   justify-content: center;
 }
+
+.csaf-image-fit img {
+  object-fit: cover;  
+  object-position: center;
+}
