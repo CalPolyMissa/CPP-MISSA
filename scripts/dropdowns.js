@@ -7,6 +7,7 @@ if (dropdowns.length > 0) {
   dropdowns.forEach(function(el) {
     el.addEventListener('click', function(e) {
       e.stopPropagation();
+      closeDropdowns();
       el.classList.toggle('is-active');
     });
   });
