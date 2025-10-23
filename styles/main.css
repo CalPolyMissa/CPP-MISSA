@@ -391,6 +391,12 @@ nav {
   padding-right: 10%;
 }
 
+.footer {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 50px;
+}
+
 .motto-box {
   padding-left: 5%;
   border-left: 3px solid hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l));
