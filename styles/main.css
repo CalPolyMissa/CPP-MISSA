@@ -350,6 +350,10 @@ p, a {
   gap: 15px;
 }
 
+.pr-3-5 {
+  padding-right: .8rem;
+}
+
 .is-serif {
   font-family:'Times New Roman', Times, serif;
 }
