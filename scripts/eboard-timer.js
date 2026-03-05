@@ -1,6 +1,6 @@
 let eboardTimer = setInterval(function() {
   // Get application open and close dates.
-  let closeDate = new Date("Feb 28, 2026 23:59:59").getTime();
+  let closeDate = new Date("Mar 29, 2026 23:59:59").getTime();
   let openDate = new Date("Feb 6, 2026 00:00:00").getTime();
 
   let now = new Date().getTime();
