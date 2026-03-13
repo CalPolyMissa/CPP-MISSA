@@ -1,6 +1,6 @@
 let alumniReunionTimer = setInterval(function() {
   // Get application open and close dates.
-  let closeDate = new Date("Mar 20, 2026 23:59:59").getTime();
+  let closeDate = new Date("Mar 29, 2026 23:59:59").getTime();
   let openDate = new Date("Mar 9, 2026 12:00:00").getTime();
 
   
@@ -32,7 +32,7 @@ let alumniReunionTimer = setInterval(function() {
       let minutes = Math.floor((distanceClose % (1000 * 60 * 60)) / (1000 * 60));
       let seconds = Math.floor((distanceClose % (1000 * 60)) / 1000);
 
-      document.getElementById("alumni-reunion-application").innerHTML = '<h3 class="has-text-weight-bold is-size-5">Register now! Registration closes March 20th • ' + days + "d " + hours + "h "
+      document.getElementById("alumni-reunion-application").innerHTML = '<h3 class="has-text-weight-bold is-size-5">Register now! Registration closes March 29th • ' + days + "d " + hours + "h "
       + minutes + "m " + seconds + "s" + '</h3><ul>' + 
       '<li><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=HqZLFuw5XU-J_6ofAKUhtKdmXfJcyBhPrPHL7gvMnLFUNTNCU0hWWlJFVDA2TzBGNzdDSjNDSDc0Uy4u" class="has-text-weight-bold is-size-5">Student Registration Form</a></li>'
       + '<li><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=HqZLFuw5XU-J_6ofAKUhtKdmXfJcyBhPrPHL7gvMnLFUMkFIMjJXOUFUTEZDMzBJSjlVOVpYWTBJMS4u" class="has-text-weight-bold is-size-5">Alumni/Faculty Registration Form</a></li></ul>';
