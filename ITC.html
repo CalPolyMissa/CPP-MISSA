@@ -23,7 +23,9 @@
     <!-- COMPONENTS -->
     <script src="components/navbar-header.js" type="text/javascript" defer></script>
     <script src="components/contact-footer.js" type="text/javascript" defer></script>
-
+    
+    <script src="scripts/fade-in.js" type="text/javascript" defer></script>
+    <script src="scripts/itc-timer.js" type="text/javascript" defer></script>
     <!-- FONT AWESOME -->
     <script src="https://kit.fontawesome.com/6ba1bc120d.js" crossorigin="anonymous"></script>
   </head>
@@ -34,7 +36,13 @@
     <!-- TITLE CONTAINER -->
     <section class="hero is-medium background-fade banner-margin">
       <div class="hero-body">
-        <h1 class="title is-size-1 has-text-black-bean">Information Technology Competition</h1>
+        <h1 class="title is-size-1 has-text-black-bean">
+          <div class="columns is-gapless is-multiline mb-0">
+            <div class="column is-narrow"><span class="pr-3-5">Information</span></div>
+            <div class="column is-narrow"><span class="pr-3-5">Technology</span></div>
+            <div class="column is-narrow">Competition</div>
+          </div>
+        </h1>
         <p class="subtitle has-text-black-bean pt-2">
           Also known as ITC
         </p>
@@ -58,7 +66,7 @@
             ITC is an annual case competition hosted by Cal Poly Pomona’s Management Information Systems Student Association (MISSA). 
             It brings together students from all backgrounds and skill levels to compete in real-world business and tech challenges. 
             Participants gain invaluable experience, build their professional network, and stand out to recruiters from leading companies. 
-            <p class="has-text-link has-text-weight-bold is-size-5">
+            <p id="itc-application" class="has-text-link has-text-weight-bold is-size-5">
               Registration coming soon!
             </p>
             <!-- Teams will be given a case study to work on three weeks prior to the actual competition day. 
@@ -195,115 +203,94 @@
 
     <!-- Competition Categories Section -->
     <section class="section is-small">
+      <!-- Section Title -->
       <h2 class="title has-text-centered">Competition Categories</h2>
-      <!-- Category Columns 1-2 -->
-      <div class="columns is-centered is-multiline">
-        <!-- Column 1 -->
-        <div class="column is-3-desktop is-4-tablet">
-          <!-- Card 1 -->
-          <div class="card mx-auto">
-            <!-- Card 1 Image -->
-            <div class="card-image">
-              <figure class="image is-4by3">
-                <img src="images/ITC/ITC-photo-1.png" alt="Guest Speaker Dr. Rita Kumar" />
-              </figure>
-            </div>
-            <!-- Card 1 Content -->
-            <div class="card-content">
-              <div class="content">
-                <!-- Card 1 Title -->
-                <h3 class="title is-3">01 Business Strategy</h3>
-                <!-- Card 1 Description -->
-                <p>Act as high-level consultants for a fast-growing media company. Teams will craft bold yet practical strategies to integrate emerging tech, build governance, assess risk, and scale innovation—all while boosting decision-making and public trust.</p>
-              </div>
-            </div>
+
+      <!-- Business Strategy Container-->
+      <div class="box">
+        <div class="columns is-centered is-tablet is-vcentered">
+          <div class="column is-2">
+            <p style="font-size: 500%">01</p>
           </div>
-        </div>
-        <!-- Column 2 -->
-        <div class="column is-3-desktop is-4-tablet">
-          <!-- Card 2 -->
-          <div class="card mx-auto">
-            <!-- Card 2 Image -->
-            <div class="card-image">
-              <figure class="image is-4by3">
-                <img src="images/ITC/ITC-photo-2.png" alt="The 29th annual ITC IT Strategy winners with their prize" />
-              </figure>
-            </div>
-            <!-- Card 2 Content -->
-            <div class="card-content">
-              <div class="content">
-                <!-- Card 2 Title -->
-                <h3 class="title is-3">02 Data Analytics</h3>
-                <!-- Card 2 Description -->
-                <p>Solve real-world problems using machine learning and BI for a utility provider. Analyze outage and reliability data to uncover insights, drive investments, and elevate performance. Clarity, impact, and technical skill are key to winning.</p>
-              </div>
-            </div>
+          <div class="column is-7 is-offset-1">
+            <!--Business Strategy Description -->
+            <h3 class="subtitle is-3">Business Strategy</h3>
+            <p class="fade-in-section">
+              Act as high-level consultants for a fast-growing media company. 
+              Teams will craft bold yet practical strategies to integrate emerging tech, build governance, 
+              assess risk, and scale innovation—all while boosting decision-making and public trust.
+            </p>
           </div>
         </div>
       </div>
-      <!-- Category Columns 3-5 -->
-      <div class="columns is-centered is-multiline">
-        <!-- Column 3 -->
-        <div class="column is-3-desktop is-4-tablet">
-          <!-- Card 3 -->
-          <div class="card mx-auto">
-            <!-- Card 3 Image -->
-            <div class="card-image">
-              <figure class="image is-4by3">
-                <img src="images/ITC/ITC-photo-3.png" alt="ITC competitors" />
-              </figure>
-            </div>
-            <!-- Card 3 Content -->
-            <div class="card-content">
-              <div class="content">
-                <!-- Card 3 Title -->
-                <h3 class="title is-3">03 Web App Development</h3>
-                <!-- Card 3 Description -->
-                <p>Design a mobile-friendly web app that reimagines in-person experiences through interactive games for local businesses. Real time functionality, user-focused design, and playful AI integration will set top teams apart.</p>
-              </div>
-            </div>
+
+      <!-- Data Analytics Container -->
+      <div class="box">
+        <div class="columns is-centered is-tablet is-vcentered">
+          <div class="column is-2">
+            <p style="font-size: 500%">02</p>
+          </div>
+          <div class="column is-7 is-offset-1">
+            <!-- Data Analytics Description -->
+            <h3 class="subtitle is-3">Data Analytics</h3>
+            <p class="fade-in-section">
+              Solve real-world problems using machine learning and BI for a utility provider. 
+              Analyze outage and reliability data to uncover insights, drive investments, and elevate performance. 
+              Clarity, impact, and technical skill are key to winning.
+            </p>
           </div>
         </div>
-        <!-- Column 4 -->
-        <div class="column is-3-desktop is-4-tablet">
-          <!-- Card 4 -->
-          <div class="card mx-auto">
-            <!-- Card 4 Image -->
-            <div class="card-image">
-              <figure class="image is-4by3">
-                <img src="images/ITC/ITC-photo-4.png" alt="ITC Judges" />
-              </figure>
-            </div>
-            <!-- Card 4 Content -->
-            <div class="card-content">
-              <div class="content">
-                <!-- Card 4 Title -->
-                <h3 class="title is-3">04 Digital Forensics</h3>
-                <!-- Card 4 Description -->
-                <p>Investigate a simulated password spray attack. Identify compromised accounts, trace the breach, and recommend mitigations. Precision, forensic skill, and clear incident reporting will be critical to success.</p>
-              </div>
-            </div>
+      </div>
+
+      <!-- Web App Development Container -->
+      <div class="box">
+        <div class="columns is-centered is-tablet is-vcentered">
+          <div class="column is-2">
+            <p style="font-size: 500%">03</p>
+          </div>
+          <div class="column is-7 is-offset-1">
+            <!-- Web App Development Description -->
+            <h3 class="subtitle is-3">Artificial Intelligence</h3>
+            <p class="fade-in-section">
+              Design innovative, real-world AI solutions that improve how organizations manage, 
+              access, or leverage information. Competitors are evaluated on creativity, feasibility, and strategic impact.
+            </p>
           </div>
         </div>
-        <!-- Column 5 -->
-        <div class="column is-3-desktop is-4-tablet">
-          <!-- Card 5 -->
-          <div class="card mx-auto">
-            <!-- Card 5 Image -->
-            <div class="card-image">
-              <figure class="image is-4by3">
-                <img src="images/ITC/ITC-photo-5.png" alt="ITC auditorium" />
-              </figure>
-            </div>
-            <!-- Card 5 Content -->
-            <div class="card-content">
-              <div class="content">
-                <!-- Card 5 Title -->
-                <h3 class="title is-3">05 IT Security</h3>
-                <!-- Card 5 Description -->
-                <p>Step into the role of ethical hackers. Teams will conduct a real-world penetration test, uncover vulnerabilities, and recommend fixes. The challenge demands cybersecurity expertise and the ability to explain complex threats to non-technical stakeholders.</p>
-              </div>
-            </div>
+      </div>
+
+      <!-- Digital Forensics Container -->
+      <div class="box">
+        <div class="columns is-centered is-tablet is-vcentered">
+          <div class="column is-2">
+            <p style="font-size: 500%">04</p>
+          </div>
+          <div class="column is-7 is-offset-1">
+            <!-- Digital Forensics Description -->
+            <h3 class="subtitle is-3">Digital Forensics</h3>
+            <p class="fade-in-section">
+              Investigate a simulated password spray attack. Identify compromised accounts, 
+              trace the breach, and recommend mitigations. Precision, forensic skill, and 
+              clear incident reporting will be critical to success.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- IT Security Title -->
+      <div class="box">
+        <div class="columns is-centered is-tablet is-vcentered">
+          <div class="column is-2">
+            <p style="font-size: 500%">05</p>
+          </div>
+          <div class="column is-7 is-offset-1">
+            <!-- IT Security>open Description -->
+            <h3 class="subtitle is-3">IT Security</h3>
+            <p class="fade-in-section">
+              Step into the role of ethical hackers. Teams will conduct a real-world penetration test, 
+              uncover vulnerabilities, and recommend fixes. The challenge demands cybersecurity expertise 
+              and the ability to explain complex threats to non-technical stakeholders.
+            </p>
           </div>
         </div>
       </div>
