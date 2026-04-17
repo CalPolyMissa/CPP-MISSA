@@ -207,7 +207,7 @@ a {
   text-decoration-line: none;
 }
 /* Tab focus border */
-a:focus, .button:focus {
+a:focus, button:focus {
   border: solid 2px black;
   outline: solid 2px white;
 }
@@ -360,6 +360,11 @@ p, a {
 
 .has-border {
   border: #330000 3px solid;
+}
+
+.disabled {
+  cursor: not-allowed;
+  background-color: #8d3a3a;
 }
 
 /* Prevent stretched out images */
