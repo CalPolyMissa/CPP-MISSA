@@ -1,6 +1,6 @@
+import Link from "next/link";
 
-
-export default function Home() {
+export default function Page() {
   return (
     <div>
       {/* TITLE CONTAINER */}
@@ -191,14 +191,14 @@ export default function Home() {
               Administration — Building 163 Room 2015 on Thursdays during U-Hour (12 - 1 pm). 
               Food and beverages will be provided.
             </p>
-            <a
+            <Link
               className="button is-info has-text-black-bean"
               href="https://www.cpp.edu/maps?id=1130#!m/276432?share"
               target="_blank"
               aria-description="opens in a new tab"
             >
               Map to CBA
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -219,9 +219,9 @@ export default function Home() {
               <div className="card-content">
                 <div className="content has-text-centered">
                   <h3 className="title is-size-4">Click below to join us!</h3>
-                  <a className="button is-info has-text-black-bean is-size-5" href="get-involved.html">
+                  <Link className="button is-info has-text-black-bean is-size-5" href="get-involved.html">
                     Get Involved
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
