@@ -68,7 +68,7 @@ section {
     height: 30px;
   }
   p {
-    text-align: justify;
+    text-align: left;
   }
   .slide-size {
     height: 750px;
