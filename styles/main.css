@@ -566,3 +566,19 @@ nav {
     text-align: center;
   }
 }
+
+/* Keep the navbar on one line on small laptop screens */
+@media screen and (min-width: 1024px) and (max-width: 1215px) {
+  nav {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .navbar-start > a.navbar-item,
+  .navbar-start .navbar-link {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .navbar-start .navbar-link:not(.is-arrowless) {
+    padding-right: 1.9rem;
+  }
+}
